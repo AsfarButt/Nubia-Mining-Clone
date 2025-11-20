@@ -8,11 +8,11 @@ export default function Page(){
         {/* First SEction  */}
         <div className="w-full h-120 bg-[url(/homepagebg1.jpg)] bg-cover bg-center flex items-center justify-center">
         <div className="absolute w-full h-120 z-1 bg-linear-to-t from-blue-800/60 to-blue-950" />
-        <div className="relative p-4 z-2 w-[90%] max-w-130 h-80 shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
-            <h1 className="font-bold font-sans text-blue-950/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
-            <div className="relative my-2 w-[90%] h-0.5 bg-red-600/80" />
-            <p className="text-center text-[14px] font-sans">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
-            <a href="/About" className="px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a>
+        <div className="onstartanimation relative p-4 z-2 w-[90%] max-w-130 h-80 shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
+            <h1 className="onstartanimation delay-200 font-bold font-sans text-blue-950/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
+            <div className="onstartanimation delay-300 relative my-2 w-[90%] h-0.5 bg-red-600/80" />
+            <p className="onstartanimation delay-500 text-center text-[14px] font-sans">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
+            <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a>
         </div>
         </div>
         {/* Image Section */}
@@ -67,21 +67,21 @@ export default function Page(){
             <div className="relative w-[75%] max-w-120 h-70 bg-white/85 p-4 flex flex-col items-center justify-center">
             <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
             <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">Comprehensive, personalized services for a dynamic industry.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] font-bold" href="/Services">Discover Our Services</a>
+            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] transition-all duration-400 font-bold" href="/Services">Discover Our Services</a>
             </div>
             </div>
             <div className="relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex items-center justify-center">
             <div className="relative w-[75%] max-w-120 h-70 bg-white/85 p-4 flex flex-col items-center justify-center">
             <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
             <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">From mine to market, we source essential elements of modern life.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] font-bold" href="/Products">Discover Our Products</a>
+            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] transition-all duration-400 font-bold" href="/Products">Discover Our Products</a>
             </div>
             </div>
         </div>
 
         {/* News Section */}
         <div className="w-full pb-30 h-auto min-h-100 bg-blue-950/90">
-        <h1 className="relative w-full h-auto p-4 text-[26px] font-bold text-white/95">News</h1>
+        <h1 className="relative w-full h-auto p-8 text-[32px] font-bold text-white/95">News</h1>
         <div className="relative w-full h-120 flex flex-col items-center justify-center">
             <div className="relative w-full h-[50%] flex flex-col md:flex-row items-center justify-center">
                 <div className="relative w-[90%] p-2 px-4 m-auto md:w-[45%] h-full border-b-2 border-white/40 flex flex-row items-center justify-center text-white/75">
