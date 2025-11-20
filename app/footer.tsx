@@ -3,7 +3,7 @@
 
 export default function Footer(){
 
-    return(<div className="w-full h-auto min-h-36 bg-linear-to-tr from-blue-950/90 to-blue-800/85 flex flex-col items-center justify-center">
+    return(<div className="w-full h-auto z-5 min-h-36 bg-linear-to-tr from-blue-950/90 to-blue-800/85 flex flex-col items-center justify-center">
         <div className="relative w-full flex items-start justify-evenly pt-3">
             <a className="cursor-pointer list-none text-blue-950 font-medium hover:text-white/95 hover:font-normal border-l-2 border-gray-500/60 pl-1" href="/Home">Home</a>
             <li className="cursor-pointer list-none text-blue-950 font-medium hover:text-white/95 hover:font-normal border-l-2 border-gray-500/60 pl-1">Services</li>
