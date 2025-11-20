@@ -24,7 +24,7 @@ export default function Page(){
         </div>
 
         {/* Second Section */}
-        <div className="relative w-full h-auto flex flex-col md:flex-row flex-wrap items-center justify-center bg-black/10">
+        <div className="relative w-full h-auto flex flex-col md:flex-row flex-wrap items-center justify-center bg-white">
             <div className="relative w-full md:w-[50%] h-auto">
                 <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/75 text-[22px]">Nubia Mining at a Glance</h1>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
