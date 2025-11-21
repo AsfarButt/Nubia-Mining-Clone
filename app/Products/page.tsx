@@ -70,7 +70,7 @@ const SingleProduct = ({ src, title, description, location }: any) => (
 
 export default function Page() {
   return (
-    <div className="relative w-full h-auto">
+    <div className="bodyelement relative w-full h-auto">
       {/* Hero Section */}
         <div className="relative w-full h-160 flex items-center justify-center bg-[url('/productimg1.jpg')] bg-cover bg-center before:absolute before:inset-0 before:z-0 before:bg-black/25">
             <div className="absolute inset-0 z-1 backdrop-blur-[2px]" />

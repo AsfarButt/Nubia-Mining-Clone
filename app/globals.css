@@ -35,3 +35,16 @@ body {
 .parentelement:has(.childelement:hover)::before{
  background-color:rgba(255, 255, 255, 0.2);
 }
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(101, 101, 101);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 57, 57);
+  border-radius: 1px; 
+}

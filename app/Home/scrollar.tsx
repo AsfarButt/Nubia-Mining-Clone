@@ -45,7 +45,7 @@ const Data = [  { state: "Sindh", city: "Karachi" },
             <h1 className="text-center text-[26px] leading-5 font-bold text-red-700/85">{Data[activeindex].state}</h1>
             <h1 className="text-center mb-2 text-[22px] font-bold text-black/95">{Data[activeindex].city}</h1>
         </div>
-        <div className="absolute px-[10%] top-1 w-full h-10 flex items-center justify-between">
+        <div className="absolute  px-4 sm:px-[10%] top-1 w-full h-10 flex items-center justify-between">
             <button className={`relative w-10 h-10 rounded-full transition-all text-[22px] pr-3 duration-600 ${activebutton == 1? "bg-red-600/85 text-white/95":"bg-black/10 text-black"}`} onClick={MoveLeft}>〈</button>
             <button className={`relative w-10 h-10 rounded-full transition-all text-[22px] pl-3 duration-600 ${activebutton == 2? "bg-red-600/85 text-white/95":"bg-black/10 text-black"}`} onClick={MoveRight}>〉</button>
         </div>

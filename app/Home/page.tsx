@@ -7,7 +7,7 @@ export default function Page(){
     return(<div className="relative w-full h-auto">
         
         {/* First SEction  */}
-        <div className="w-full h-120 bg-[url(/homepagebg1.jpg)] bg-cover bg-center flex items-center justify-center">
+        <div className="bodyelement w-full h-120 bg-[url(/homepagebg1.jpg)] bg-cover bg-center flex items-center justify-center">
         <div className="absolute w-full h-120 z-1 bg-linear-to-t from-blue-800/60 to-blue-950" />
         <div className="onstartanimation relative p-4 py-10 z-2 w-[90%] max-w-130 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
@@ -99,7 +99,7 @@ export default function Page(){
             <div className="relative w-full h-auto flex flex-col md:flex-row items-center justify-center bg-white-10">
                 <div className="relative w-[90%] p-2 px-4 m-auto md:w-[45%] h-full border-b-2 border-white/40 flex flex-row items-center justify-center text-white/75">
                 <div className="relative min-w-[10%] w-auto h-full hidden lg:block"><div className="relative top-0 w-10 h-10 rounded-full hover:bg-white/10 transition-all duration-400 border border-white font-bold flex items-center justify-center">&gt;</div></div>
-                <div className="relative h-fit flex flex-col items-start justify-center"><h1 className="text-[17px] text-red-800/70">2025-01-23</h1><h2 className="text-[20px] text-black/85">Traxys North Ameraica, Pure Aluminum and Consortium Metals Form Strategic Partnership to Expand Sustainable Aluminum Production in North America</h2></div></div>
+                <div className="relative h-fit flex flex-col items-start justify-center"><h1 className="text-[17px] text-red-800/70">2025-01-23</h1><h2 className="text-[20px] text-black/85">Nubia Mining, Pure Aluminum and Consortium Metals Form Strategic Partnership to Expand Sustainable Aluminum Production all over Pakistan</h2></div></div>
                 <div className="relative w-[90%] p-2 px-4 m-auto md:w-[45%] h-full border-b-2 border-white/40 flex flex-row items-center justify-center text-white/75">
                 <div className="relative min-w-[10%] w-auto h-full hidden lg:block"><div className="relative top-0 w-10 h-10 rounded-full hover:bg-white/10 transition-all duration-400 border border-white font-bold flex items-center justify-center">&gt;</div></div>
                 <div className="relative h-fit flex flex-col items-start justify-center"><h1 className="text-[17px] text-red-800/70">2025-07-31</h1><h2 className="text-[20px] text-black/85">Minerals can be recycled from old electronics and industrial products, helping to conserve natural reserves.</h2></div></div>
