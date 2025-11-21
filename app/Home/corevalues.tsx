@@ -1,5 +1,5 @@
 "use client";
-import React,{useEffect, useRef, useState} from 'react';
+import React,{useEffect, useRef} from 'react';
 
 
 
@@ -16,7 +16,7 @@ export default function CoreValues(){
                     element.target.classList.remove("translate-y-30","opacity-0");
                     }
                 })
-        })
+        },{threshold: 0.3})
         observer.observe(element1.current);
         observer.observe(element2.current);
         observer.observe(element3.current);

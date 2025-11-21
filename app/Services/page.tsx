@@ -1,4 +1,4 @@
-
+import CoreOperations from "./coreoperations";
 
 
 
@@ -43,8 +43,8 @@ const services = [
 
 
     const SingleService = ({ title, description }: { title: string; description: string }) => (
-    <div className="relative w-[90%] py-10 bg-white flex flex-col h-full">
-        <div className="relative w-full mx-6 p-6 bg-white shadow-sm border border-gray-200/40 hover:[box_shadow:0px_0px_5px_rgba(0,0,0,0.8)] flex-1 flex flex-col">
+      <div className="relative w-[90%] py-10 flex flex-col h-full pointer-events-none">
+        <div className="relative w-full mx-6 p-6 bg-white shadow-lg border pointer-events-auto border-gray-200/40 hover:shadow-black/20 hover:-translate-y-2 transition-all duration-200 flex-1 flex flex-col">
         <h1 className="text-[20px] font-sans font-medium text-blue-950/90">{title}</h1>
         <p className="pt-2 text-[17px] text-black/95">{description}</p>
         </div>
@@ -94,6 +94,10 @@ const services = [
         ))}
         </div>
 
+      </div>
+
+      <div className="relative w-full h-auto py-4 bg-[url('/serviceimg2.jpg')] bg-cover bg-center before:absolute before:inset-0 before:bg-black/50 before:backdrop-blur-[2px]">
+      <CoreOperations />
       </div>
     </div>
   );
