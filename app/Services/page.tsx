@@ -7,42 +7,44 @@
 
 
 export default function Services() {
-  const services = [
-    {
-      title: "Market Support",
-      description:
-        "Traxys helps its customers find solutions that maximize value and minimize risk. The breadth of our global network allows us to keep up with rapidly changing market conditions and react efficiently. Our team deals at a local level worldwide - financially and culturally - to expedite transactions.",
-    },
-    {
-      title: "Off-Take Agreements",
-      description:
-        "Traxys acts as your agent by representing your interests from the first introduction to consumers to the ultimate delivery and execution of the sale. Traxys coordinates directly with you as the producer and based on our extensive experience with the product and consuming market, we give guidance about commercial strategies and pricing. This process provides complete transparency all the way through to final markets.",
-    },
-    {
-      title: "Logistics & Distribution",
-      description:
-        "As a global company, we have worldwide logistics partners that help ensure your products leave your facility and arrive at your customer’s location safely and on time. We help fulfill your end-customer requirements by executing your distribution agreements. Whether regional, national, or international, or one truckload per week delivered to a plant or ten shiploads unloading at a major port, we have the resources to meet your customers’ needs. Distribution: Ocean/Land Movement, Warehousing, Tolling. Regulatory Compliance: US and EU Customs, REACH, United States-Mexico-Canada Agreement (USMCA).",
-    },
-    {
-      title: "Financial Services",
-      description:
-        "Traxys has the financial resources and technical expertise to help you hedge prices to forecast your revenues better. It's part of our financial service offerings based on our in-depth industry pricing knowledge.",
-    },
-    {
-      title: "Risk Management",
-      description:
-        "Dealing with new customers or exotic markets carries a level of risk that can disrupt cash flows. Traxys has the international industry know-how to structure various ways to cover your risk.",
-    },
-    {
-      title: "Funding Solutions",
-      description:
-        "Traxys has the financial resources to offer solutions ranging from simple working capital funding to highly structured long-term financing to suppliers and customers.",
-    },
-  ];
+
+const services = [
+  {
+    title: "Market Support",
+    description:
+      "Nubia Mining provides tailored solutions to help customers maximize value while minimizing risk. Our extensive global network enables us to stay ahead of rapidly changing market conditions and respond efficiently. Our team operates locally across multiple regions—financially and culturally—to expedite transactions seamlessly.",
+  },
+  {
+    title: "Off-Take Agreements",
+    description:
+      "Nubia Mining acts as your trusted agent, representing your interests from initial introductions to consumers through to the final delivery and execution of sales. We work directly with producers and leverage our extensive experience to provide strategic guidance on commercial approaches and pricing, ensuring complete transparency throughout the process.",
+  },
+  {
+    title: "Logistics & Distribution",
+    description:
+      "As a global company, Nubia Mining partners with logistics providers worldwide to ensure that your products are delivered safely and on time. We support end-to-end distribution agreements—whether regional, national, or international—covering everything from single truckload deliveries to multiple shipments at major ports. Our services include Ocean/Land transportation, warehousing, tolling, and compliance with US and EU customs, REACH regulations, and the United States-Mexico-Canada Agreement (USMCA).",
+  },
+  {
+    title: "Financial Services",
+    description:
+      "Nubia Mining offers comprehensive financial services to help you manage price volatility and forecast revenue with confidence. Our expertise in industry-specific pricing allows us to provide tailored financial solutions that support your business objectives.",
+  },
+  {
+    title: "Risk Management",
+    description:
+      "Navigating new markets or unconventional customers carries inherent risk that can impact cash flow. Nubia Mining applies international industry expertise to structure risk mitigation strategies that protect your business and ensure continuity.",
+  },
+  {
+    title: "Funding Solutions",
+    description:
+      "Nubia Mining provides flexible funding solutions, ranging from working capital support to structured long-term financing. Our goal is to empower suppliers and customers with the financial resources they need to grow and succeed.",
+  },
+];
+
 
     const SingleService = ({ title, description }: { title: string; description: string }) => (
     <div className="relative w-[90%] py-10 bg-white flex flex-col h-full">
-        <div className="relative w-full mx-6 p-6 bg-white shadow-sm border border-gray-200/40 hover:shadow-black/40 flex-1 flex flex-col">
+        <div className="relative w-full mx-6 p-6 bg-white shadow-sm border border-gray-200/40 hover:[box_shadow:0px_0px_5px_rgba(0,0,0,0.8)] flex-1 flex flex-col">
         <h1 className="text-[20px] font-sans font-medium text-blue-950/90">{title}</h1>
         <p className="pt-2 text-[17px] text-black/95">{description}</p>
         </div>
