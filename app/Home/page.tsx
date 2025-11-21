@@ -12,7 +12,7 @@ export default function Page(){
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
             <h1 className="onstartanimation delay-200 font-bold font-sans text-blue-900/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
             <div className="onstartanimation delay-300 relative my-2 w-[90%] h-0.5 bg-red-600/80" />
-            <p className="onstartanimation delay-500 text-center text-[14px] font-sans">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
+            <p className="onstartanimation delay-500 text-center text-[14px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
             <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a>
         </div>
         </div>
@@ -29,24 +29,24 @@ export default function Page(){
                 <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/75 text-[22px]">Nubia Mining at a Glance</h1>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
                     <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] font-bold font-sans">$10.0B+</h1>
+                        <h1 className="text-[36px] text-black/95 font-bold font-sans">$10.0B+</h1>
                         <h2 className="text-[24px] text-red-600/90">ANNUAL</h2>
                         <h2 className="text-[24px] text-black/95">REVENUE</h2>
                     </div>
                     <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] font-bold font-sans">65+</h1>
+                        <h1 className="text-[36px] text-black/95 font-bold font-sans">65+</h1>
                         <h2 className="text-[24px] text-red-600/90">COMMODITIES</h2>
                         <h2 className="text-[24px] text-black/95">TRADED</h2>
                     </div>
                 </div>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
                     <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] font-bold font-sans">400+</h1>
+                        <h1 className="text-[36px] text-black/95 font-bold font-sans">400+</h1>
                         <h2 className="text-[24px] text-red-600/90">GLOBAL</h2>
                         <h2 className="text-[24px] text-black/95">EMPLOYEES</h2>
                     </div>
                     <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] font-bold font-sans">100+</h1>
+                        <h1 className="text-[36px] text-black/95 font-bold font-sans">100+</h1>
                         <h2 className="text-[24px] text-red-600/90">YEARS OF</h2>
                         <h2 className="text-[24px] text-black/95">HISTORY</h2>
                     </div>

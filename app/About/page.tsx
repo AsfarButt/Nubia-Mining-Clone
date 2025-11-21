@@ -21,31 +21,6 @@ export default function Page(){
             <h2 className="font-semibold mt-4">Delivering Excellence Through Innovation and Intergrity</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards  of integrity, transparency, and envirnomental stewardship. We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communnities, and stakeholders worldwide.</p>
 
-
-        {/* Our Team */}
-        <div className="relative py-6 w-full px-4 h-auto flex flex-row flex-wrap items-center justify-center">
-            <h1 className="relative w-full py-6 text-center font-sans text-3xl font-semibold">Our Team</h1>
-            <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Furqan Zahoor</h1>
-                <h2 className="text-[16px] text-gray-600/95 md:text-center">Program Manager</h2>
-            </li>
-            <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Saboor Karamat</h1>
-                <h2 className="text-[16px] text-gray-600/95 md:text-center">Legal Expert</h2>
-            </li>
-            <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Ghulam Ali</h1>
-                <h2 className="text-[16px] text-gray-600/95 md:text-center">General Manager</h2>
-            </li>
-            <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Waqar Khan</h1>
-                <h2 className="text-[16px] text-gray-600/95 md:text-center">MD Mining & Exploration</h2>
-            </li>
-            <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Bibi Sabira</h1>
-                <h2 className="text-[16px] text-gray-600/95 md:text-center">Project Coordinator</h2>
-            </li>
-        </div>
         </div>
 
         <div className="relative w-full my-20 h-auto bg-[url('/aboutimg3.jpg')] bg-cover bg-center flex flex-col items-center justify-center">
@@ -67,6 +42,33 @@ export default function Page(){
                 </div>
             </div>
 
+        </div>
+
+        <div className="relative w-full px-4 md:px-8 lg:px-16 bg-white">
+            {/* Our Team */}
+            <div className="relative py-6 w-full px-4 h-auto flex flex-row flex-wrap items-center justify-center">
+                <h1 className="relative w-full py-6 text-center font-sans text-3xl font-semibold">Our Team</h1>
+                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
+                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Furqan Zahoor</h1>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Program Manager</h2>
+                </li>
+                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
+                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Saboor Karamat</h1>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Legal Expert</h2>
+                </li>
+                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
+                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Ghulam Ali</h1>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">General Manager</h2>
+                </li>
+                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
+                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Waqar Khan</h1>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">MD Mining & Exploration</h2>
+                </li>
+                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
+                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Bibi Sabira</h1>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Project Coordinator</h2>
+                </li>
+            </div>
         </div>
     </div>)
 }
