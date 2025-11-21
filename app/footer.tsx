@@ -30,8 +30,8 @@ export default function Footer(){
             <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="https://wa.me/+923128550786" target="_blank">+92 312 8550786</a>
             <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="https://wa.me/0516162000">051 616 2000</a>
             <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="https://wa.me/0516164000" target="_blank">051 616 4000</a>
-            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">support@nubiamining.com</a>
-            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">ghulamali@hhsheikhahmed.com</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="mailto:support@nubiamining.com" target="_blank">support@nubiamining.com</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="mailto:ghulamali@hhsheikhahmed.com" target="_blank">ghulamali@hhsheikhahmed.com</a>
             </li>
         </div>
         <div className="relative w-[90%] border-t md:text-[12px] border-gray-300/65 h-auto text-center text-gray-300/85 text-[10px] mt-8 py-2 pb-10">@nubiamining. |  All Rights Reserved</div>
