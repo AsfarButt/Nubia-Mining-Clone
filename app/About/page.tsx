@@ -18,7 +18,7 @@ export default function Page(){
 
         <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto bg-white">
             <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-medium">Mission</h1>
-            <h2 className="font-semibold mt-4">Delivering Excellence Through Innovation and Intergrity</h2>
+            <h2 className="font-semibold mt-4 text-gray-800/85">Delivering Excellence Through Innovation and Intergrity</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards  of integrity, transparency, and envirnomental stewardship. We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communnities, and stakeholders worldwide.</p>
 
         </div>

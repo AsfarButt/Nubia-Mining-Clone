@@ -3,8 +3,8 @@ import React from "react";
 
 const products = [
   {
-    src: "/Products/Cooper.jpg",
-    title: "Cooper",
+    src: "/Products/copper.jpg",
+    title: "Copper",
     description: "Low & high grade, concentrate & raw form",
     location: "KP, Baluchistan, GB",
   },
@@ -70,7 +70,7 @@ const SingleProduct = ({ src, title, description, location }: any) => (
 
 export default function Page() {
   return (
-    <div className="bodyelement relative w-full h-auto">
+    <div className="bodyelement relative w-full h-auto bg-white/95">
       {/* Hero Section */}
         <div className="relative w-full h-160 flex items-center justify-center bg-[url('/productimg1.jpg')] bg-cover bg-center before:absolute before:inset-0 before:z-0 before:bg-black/25">
             <div className="absolute inset-0 z-1 backdrop-blur-[2px]" />
@@ -85,7 +85,7 @@ export default function Page() {
         </div>
 
       {/* Products Section */}
-      <h2 className="px-4 md:px-6 mt-12 text-left bg-white/95 underline decoration-red-600/90 text-2xl md:text-3xl">
+      <h2 className="px-4 md:px-6 mt-12 text-left  underline decoration-red-600/90 text-2xl md:text-3xl">
         Products
       </h2>
 
