@@ -6,7 +6,7 @@ const products = [
     src: "/Products/copper.jpg",
     title: "Copper",
     description: "Low & high grade, concentrate & raw form",
-    location: "KP, Baluchistan, GB",
+    location: "KP, Balochistan, GB",
   },
   {
     src: "/Products/Graphite.jpg",
@@ -18,13 +18,13 @@ const products = [
     src: "/Products/Magnesium.jpg",
     title: "Manganese",
     description: "Good quality in raw form",
-    location: "KP, Baluchistan",
+    location: "KP, Balochistan",
   },
   {
     src: "/Products/Chromite.jpg",
     title: "Chromite",
     description: "High-grade chromite, raw & concentrates",
-    location: "KP, Baluchistan",
+    location: "KP, Balochistan",
   },
   {
     src: "/Products/Gypsum.jpg",
@@ -36,19 +36,19 @@ const products = [
     src: "/Products/Antimony.jpg",
     title: "Antimony",
     description: "40-65% Sb, raw & concentrate form",
-    location: "KP, Baluchistan, GB",
+    location: "KP, Balochistan, GB",
   },
   {
     src: "/Products/Ironore.avif",
     title: "Iron Ore",
     description: "Hematite / Laterite, up to 60% Fe",
-    location: "KP, Punjab, Baluchistan",
+    location: "KP, Punjab, Balochistan",
   },
   {
     src: "/Products/Tungsten.jpg",
     title: "Tungsten",
     description: "Medium-high grade, multi-mineral content",
-    location: "KP, Baluchistan",
+    location: "KP, Balochistan",
   },
 ];
 
