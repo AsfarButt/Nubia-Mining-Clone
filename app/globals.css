@@ -36,6 +36,10 @@ body {
  background-color:rgba(255, 255, 255, 0.2);
 }
 
+body{
+  width: 100vw;
+}
+
 body::-webkit-scrollbar {
   width: 3px;
 }
