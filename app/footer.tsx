@@ -10,7 +10,7 @@ export default function Footer(){
 
 
     return(<div className="w-full h-auto z-5 min-h-36 bg-linear-to-tl from-blue-900/85 to-blue-950/90 backdrop-brightness-20 flex flex-col justify-center items-center">
-        <div className="relative w-full h-auto flex justify-center">
+        <div className="relative pt-8 w-full h-auto flex justify-center">
         <img src="/brandlogo.png" alt="Logo Image" className="w-25 h-25" />
         </div>
         <div className="relative w-full flex flex-row flex-wrap items-start justify-evenly pt-3">
@@ -25,14 +25,14 @@ export default function Footer(){
             <li className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Address
             <a className="block cursor-pointer mt-4 max-w-35 sm:max-w-40 text-[13px] text-yellow-100/55 hover:text-white/85" href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9" target="_blank">House No. 17, Street No. 22, Sector F-6/2, Islamabad, Capital Territory, Pakistan</a>
             </li>
-            <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Contact Info
-            <li className="cursor-pointer mt-4 text-[13px] text-yellow-100/55 hover:text-white/85">+93 321 8550786</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">+92 312 8550786</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">051 616 2000</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">051 616 4000</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">support@nubiamining.com</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">ghulamali@hhsheikhahmed.com</li>
-            </a>
+            <li className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Contact Info
+            <a className="block cursor-pointer mt-4 text-[13px] text-yellow-100/55 hover:text-white/85" href="wa.me/+923218550786" target="_blank">+92 321 8550786</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="wa.me/+923128550786" target="_blank">+92 312 8550786</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="wa.me/0516162000">051 616 2000</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85" href="wa.me/0516164000" target="_blank">051 616 4000</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">support@nubiamining.com</a>
+            <a className="block cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">ghulamali@hhsheikhahmed.com</a>
+            </li>
         </div>
         <div className="relative w-[90%] border-t md:text-[12px] border-gray-300/65 h-auto text-center text-gray-300/85 text-[10px] mt-8 py-2 pb-10">@nubiamining. |  All Rights Reserved</div>
     </div>)
