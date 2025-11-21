@@ -23,7 +23,7 @@ export default function Footer(){
             </a>
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2" href="/Products">Products</a>
             <li className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Address
-            <a className="cursor-pointer mt-4 max-w-35 sm:max-w-40 text-[13px] text-yellow-100/55 hover:text-white/85" href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9" target="_blank">House No. 17, Street No. 22, Sector F-6/2, Islamabad, Capital Territory, Pakistan</a>
+            <a className="block cursor-pointer mt-4 max-w-35 sm:max-w-40 text-[13px] text-yellow-100/55 hover:text-white/85" href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9" target="_blank">House No. 17, Street No. 22, Sector F-6/2, Islamabad, Capital Territory, Pakistan</a>
             </li>
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Contact Info
             <li className="cursor-pointer mt-4 text-[13px] text-yellow-100/55 hover:text-white/85">+93 321 8550786</li>
