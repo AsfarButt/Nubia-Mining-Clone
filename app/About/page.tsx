@@ -4,10 +4,10 @@
 export default function Page(){
 
     return(<div className="relative w-full h-auto flex flex-col items-center justify-center">
-
+      {/* Hero Section */}
         <div className="relative w-full h-160 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
             <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
-                <div className="w-[90%] py-2 px-4 h-80 max-w-140 bg-white">
+                <div className="w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About</h1>
                     <h1 className="text-[22px] text-blue-900">We manage the full value chain--from exploration to processing and trade of gold, PGMs, and critical minerals--guided by OECD, LBMA and JORC standards to ensure ethical and traceable operations.</h1>
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />

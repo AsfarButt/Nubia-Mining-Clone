@@ -61,7 +61,7 @@ const SingleProduct = ({ src, title, description, location }: any) => (
       className="w-full h-48 sm:h-52 md:h-56 lg:h-60 xl:h-64 object-cover rounded-t-lg"
     />
     <div className="p-3 flex flex-col items-start justify-center bg-white rounded-b-lg">
-      <h2 className="font-bold text-lg md:text-xl">{title}</h2>
+      <h2 className="font-bold text-lg md:text-xl text-black/98">{title}</h2>
       <p className="text-gray-700 text-sm md:text-base leading-snug mt-1">{description}</p>
       <p className="text-gray-900 font-semibold text-sm md:text-base mt-1">{location}</p>
     </div>
@@ -72,18 +72,17 @@ export default function Page() {
   return (
     <div className="relative w-full h-auto">
       {/* Hero Section */}
-      <div className="relative w-full h-60 md:h-80 lg:h-96 flex items-center justify-center md:justify-start bg-[url('/productimg1.jpg')] bg-cover bg-center before:absolute before:inset-0 before:bg-black/30 shadow-lg shadow-black/10">
-            <div className="relative md:ml-16 lg:ml-32 w-[90%] pb-12 md:pb-4 max-w-140 bg-white p-4 shadow-lg rounded-lg">
-                <h1 className="text-gray-600 font-mono text-sm md:text-[14px]">Nubia Mining / Products</h1>
-                <h2 className="text-blue-900 text-lg md:text-2xl mt-2">
-                    At Nubia Mining, We supply the key Industrial and Metallurgical Minerals in Raw as well as Concentrated form.
-                </h2>
-                <div className="w-full h-0.5 bg-red-600/70 my-2" />
-                <p className="text-black/80 text-sm md:text-base">
-                    We value quality over quantity and try our best to keep our customers satisfied. Our customer response rate is 96% good
-                </p>
+        <div className="relative w-full h-160 flex items-center justify-center bg-[url('/productimg1.jpg')] bg-cover bg-center before:absolute before:inset-0 before:z-0 before:bg-black/25">
+            <div className="absolute inset-0 z-1 backdrop-blur-[2px]" />
+            <div className="relative h-auto z-2 text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
+                <div className="w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white">
+                    <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / Products</h1>
+                    <h1 className="text-[22px] text-blue-900">At Nubia Mining, We supply the key Industrial and Metallurgical Minerals in Raw as well as Concentrated form.</h1>
+                    <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
+                    <h1 className="text-[14px] text-black/80"> We value quality over quantity and try our best to keep our customers satisfied. Our customer response rate is 96% good</h1>
+                </div>
             </div>
-      </div>
+        </div>
 
       {/* Products Section */}
       <h2 className="px-4 md:px-6 mt-12 text-left underline decoration-red-600/90 text-2xl md:text-3xl">
@@ -100,3 +99,5 @@ export default function Page() {
     </div>
   );
 }
+
+

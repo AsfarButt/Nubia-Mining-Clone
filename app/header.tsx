@@ -22,14 +22,16 @@ export default function Header(){
             <div className="w-1.5 h-[85%] bg-white/60" ></div>
             <a className="relative w-full h-full list-none text-gray-200/90 flex items-center font-sans hover:text-yellow-500/85 justify-center px-1 group" href="/About">About us
             <div className="absolute top-14 p-2 border-l border-white/80 left-0 h-auto w-auto min-w-35 bg-blue-900/60 hidden group-hover:block pointer-events-auto z-1">
-            <><li className="text-white/65 hover:text-yellow-500/75">Locations</li>
-            <li className="text-white/65 hover:text-yellow-500/75">History</li>
-            <li className="text-white/65 hover:text-yellow-500/75">ESG</li>
-            <li className="text-white/65 hover:text-yellow-500/75">Careers</li></>
+            <><li className="text-white/65 hover:text-white/75 hover:underline decoration-white/70">About Nubia</li>
+            <li className="text-white/65 hover:text-white/75 hover:underline decoration-white/70">Mission</li>
+            <li className="text-white/65 hover:text-white/75 hover:underline decoration-white/70">Logistics</li>
+            <li className="text-white/65 hover:text-white/75 hover:underline decoration-white/70">Our Team</li></>
             </div>
             </a>
             <div className="w-1.5 h-[85%] bg-white/60" ></div>
             <a className="relative w-full h-full list-none text-gray-200/90 flex items-center font-sans hover:text-yellow-500/85 justify-center px-1" href="/Products">Products</a>
+            <div className="w-1.5 h-[85%] bg-white/60" ></div>
+            <a className="relative w-full h-full list-none text-gray-200/90 flex items-center font-sans hover:text-yellow-500/85 justify-center px-1" href="/Services">Services</a>
             <div className="w-1.5 h-[85%] bg-white/60" ></div>
         </div>
     </div>)
