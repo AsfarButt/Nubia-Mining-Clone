@@ -28,8 +28,8 @@ export default function Footer(){
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2">Contact Info
             <li className="cursor-pointer mt-4 text-[13px] text-yellow-100/55 hover:text-white/85">+93 321 8550786</li>
             <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">+92 312 8550786</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">+92 516 162000</li>
-            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">+92 516 164000</li>
+            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">051 616 2000</li>
+            <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">051 616 4000</li>
             <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">support@nubiamining.com</li>
             <li className="cursor-pointer text-[13px] max-w-35 text-yellow-100/55 hover:text-white/85">ghulamali@hhsheikhahmed.com</li>
             </a>
