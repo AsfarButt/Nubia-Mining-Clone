@@ -32,7 +32,7 @@ export default function Header(){
             <a className="relative w-full h-full list-none text-gray-200/90 flex items-center text-[15px] sm:text-[17px] font-sans hover:text-yellow-500/85 justify-center sm:px-1" href="/Products">Products</a>
             <div className="w-1.5 h-[85%] bg-white/60" ></div>
             <a className="relative w-full h-full list-none text-gray-200/90 flex items-center text-[15px] sm:text-[17px] font-sans hover:text-yellow-500/85 justify-center sm:px-1" href="/Services">Services</a>
-            <div className="w-1.5 h-[85%] bg-white/60" ></div>
+            <div className="w-1.5 h-[85%] bg-white/60 hidden sm:block" ></div>
         </div>
     </div>)
 }
