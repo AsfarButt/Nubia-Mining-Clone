@@ -9,28 +9,17 @@ export default function Scrollar(){
     const container = useRef<HTMLHeadingElement | null>(null);
     const isDisabled = useRef(false);
 
-const Data = [
-  { state: "California", city: "Los Angeles" },
-  { state: "New York", city: "New York City" },
-  { state: "Texas", city: "Houston" },
-  { state: "Florida", city: "Miami" },
-  { state: "Illinois", city: "Chicago" },
-  { state: "England", city: "London" },
-  { state: "Scotland", city: "Edinburgh" },
-  { state: "Wales", city: "Cardiff" },
-  { state: "Northern Ireland", city: "Belfast" },
-  { state: "England", city: "Manchester" },
-  { state: "UAE", city: "Dubai" },
-  { state: "UAE", city: "Abu Dhabi" },
-  { state: "UAE", city: "Sharjah" },
-  { state: "UAE", city: "Ajman" },
-  { state: "UAE", city: "Ras Al Khaimah" },
-  { state: "California", city: "San Francisco" },
-  { state: "Texas", city: "Dallas" },
-  { state: "England", city: "Birmingham" },
-  { state: "Florida", city: "Orlando" },
-  { state: "UAE", city: "Fujairah" },
-];
+const Data = [  { state: "Sindh", city: "Karachi" },
+                { state: "Punjab", city: "Faisalabad" },
+                { state: "Punjab", city: "Lahore" },
+                { state: "Punjab", city: "Sialkot" },
+                { state: "Punjab", city: "Gujranwala" },
+                { state: "Federal Territory", city: "Islamabad / Rawalpindi" },
+                { state: "Balochistan", city: "Hub" },
+                { state: "Punjab", city: "Multan" },
+                { state: "Sindh", city: "Port Qasim" },
+                { state: "Khyber Pakhtunkhwa", city: "Peshawar" }];
+
 
     function MoveLeft(){
         if(isDisabled.current) return;

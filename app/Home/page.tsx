@@ -1,4 +1,5 @@
 import Scrollar from "./scrollar";
+import CoreValues from "./corevalues";
 
 
 export default function Page(){
@@ -64,38 +65,24 @@ export default function Page(){
 
         {/* Third Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-center">
-            <div className="parentelement relative w-full h-140 bg-[url('/sectionleftimage.jpg')] bg-center bg-cover flex items-center justify-center">
-            <div className="childelement relative w-[75%] max-w-120 h-70 bg-white/85 p-4 hover:bg-white/90 transition-all duration-300 flex flex-col items-center justify-center">
+            <div className="parentelement relative w-full h-140 bg-[url('/sectionleftimage.jpg')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
+            <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
             <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
             <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">Comprehensive, personalized services for a dynamic industry.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] transition-all duration-400 font-bold" href="/Services">Discover Our Services</a>
+            <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Services">Discover Our Services</a>
             </div>
             </div>
-            <div className="parentelement relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex items-center justify-center">
-            <div className="childelement relative w-[75%] max-w-120 h-70 bg-white/85 p-4 hover:bg-white/90 transition-all duration-300 flex flex-col items-center justify-center">
+            <div className="parentelement relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
+            <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
             <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
             <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">From mine to market, we source essential elements of modern life.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 hover:bg-red-600/80 text-white text-[20px] transition-all duration-400 font-bold" href="/Products">Discover Our Products</a>
+            <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Products">Discover Our Products</a>
             </div>
             </div>
         </div>
         
         {/* Core Values */}
-        <div className="relative w-full h-fit flex items-start justify-center flex-row flex-wrap bg-white">
-            <h1 className="relative w-full py-4 text-[36px] font-sans font-bold text-center underline decoration-red-600/80">Core Values</h1>
-            <div className="relative w-full h-full max-w-120 transition-all duration-250 p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30">
-                <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">Responsible Development & Innovation</h1>
-                <p className="text-[17px] px-4 mt-4 pb-8 text-center text-blue-950/85">We pursue advanced exploration and mining using cutting-edge, low impact technologies aligned with JORC principles, ensuring efficiency, safety , and envirnomental reponsibility</p>
-            </div>
-            <div className="relative w-full h-full max-w-120 transition-all duration-250 p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30">
-                <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">Sustainability & Ethical Sourcing</h1>
-                <p className="text-[18px] px-4 mt-4 pb-8 text-center text-blue-950/85">We uphold ESG-driven practices and golbal standards for responsible trade -- ensuring compliance, ethical sourcing, and positive community impact across every operation.</p>
-            </div>
-            <div className="relative w-full h-full max-w-120 transition-all duration-250 p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30">
-                <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">Transparency & Traceability</h1>
-                <p className="text-[18px] px-4 mt-4 pb-8 text-center text-blue-950/85">We ensure full visibility, integritym and accountability across the value chain through digital monitoring and transparent supply-chain governance.</p>
-            </div>
-        </div>
+        <CoreValues />
 
         {/* News Section */}
         <div className="w-full pb-30 h-auto bg-linear-to-br from-blue-950/95 to-blue-900/85">

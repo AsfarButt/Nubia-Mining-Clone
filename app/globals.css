@@ -32,6 +32,6 @@ body {
   to{transform: translateY(0px); opacity: 100}
 }
 
-.childelement:hover .parentelement{
-  backdrop-filter: brightness(75);
+.parentelement:has(.childelement:hover)::before{
+ background-color:rgba(255, 255, 255, 0.2);
 }
