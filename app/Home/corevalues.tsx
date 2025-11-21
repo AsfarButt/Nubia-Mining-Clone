@@ -38,7 +38,7 @@ return (
     <div className="relative w-full flex flex-col md:flex-row flex-wrap items-stretch justify-center">
       
       <div
-        className="relative w-full md:w-[33%] flex-1 transition-all delay-50 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
+        className="relative w-auto md:w-[33%] flex-1 transition-all delay-50 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
         ref={element1}
       >
         <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">
@@ -50,7 +50,7 @@ return (
       </div>
 
       <div
-        className="relative w-full md:w-[33%] flex-1 transition-all delay-150 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
+        className="relative w-auto md:w-[33%] flex-1 transition-all delay-150 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
         ref={element2}
       >
         <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">
@@ -62,7 +62,7 @@ return (
       </div>
 
       <div
-        className="relative w-full md:w-[33%] flex-1 transition-all delay-250 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
+        className="relative w-auto md:w-[33%] flex-1 transition-all delay-250 translate-y-30 opacity-0 duration-800 ease-out p-4 rounded-md border m-4 border-black/20 shadow-md shadow-transparent hover:shadow-black/30 flex flex-col"
         ref={element3}
       >
         <h1 className="w-full text-center text-yellow-800/90 text-[24px] font-semibold font-sans">
