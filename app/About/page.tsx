@@ -34,6 +34,7 @@ export default function Page(){
                     <h1 className="text-[14px] text-black/80">Export Volume: Monthly Shipment as per client requirments.</h1>
                 </div>
                 <div className="relative w-100 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
+                    <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Shipping</h1>
                     <h1 className="text-[22px] pt-4 text-blue-900">Shipping Options</h1>
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
                     <li className="text-[14px] text-black/80">Containerized Export Prefered (Prefered): 80-100 * 20 containers per month.</li>
@@ -47,7 +48,7 @@ export default function Page(){
         <div className="relative w-full px-4 md:px-8 lg:px-16 bg-white">
             {/* Our Team */}
             <div className="relative py-6 w-full px-4 h-auto flex flex-row flex-wrap items-center justify-center">
-                <h1 className="relative w-full py-6 text-center font-sans text-3xl font-semibold">Our Team</h1>
+                <h1 className="relative w-full py-6 text-black/95 text-center font-sans text-3xl font-semibold">Our Team</h1>
                 <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
                     <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Furqan Zahoor</h1>
                     <h2 className="text-[16px] text-gray-600/95 md:text-center">Program Manager</h2>
