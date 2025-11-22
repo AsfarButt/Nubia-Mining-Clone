@@ -45,8 +45,8 @@ const products = [
     location: "KP, Punjab, Balochistan",
   },
   {
-    src: "/Products/Tungsten.jpg",
-    title: "Tungsten",
+    src: "/Products/Coal.avif",
+    title: "Coal",
     description: "Medium-high grade, multi-mineral content",
     location: "KP, Balochistan",
   },
