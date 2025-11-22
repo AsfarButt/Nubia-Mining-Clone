@@ -59,7 +59,7 @@ export default function Page(){
                 <Scrollar />
                 <div className="relative mb-2 w-full h-0.5 bg-gray-600/60" />
                 <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Offices Across the Country</h1>
-                <a href="/About/locations" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
+                <a href="/About" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
             </div>
         </div>
 
