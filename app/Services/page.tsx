@@ -20,10 +20,9 @@ const services = [
       "Nubia Mining acts as your trusted agent, representing your interests from initial introductions to consumers through to the final delivery and execution of sales. We work directly with producers and leverage our extensive experience to provide strategic guidance on commercial approaches and pricing, ensuring complete transparency throughout the process.",
   },
   {
-    title: "Logistics & Distribution",
-    description:
-      "As a global company, Nubia Mining partners with logistics providers worldwide to ensure that your products are delivered safely and on time. We support end-to-end distribution agreements—whether regional, national, or international—covering everything from single truckload deliveries to multiple shipments at major ports. Our services include Ocean/Land transportation, warehousing, tolling, and compliance with US and EU customs, REACH regulations, and the United States-Mexico-Canada Agreement (USMCA).",
-  },
+  title: "Logistics & Distribution",
+  description: "Nubia Mining operates a robust logistics network across Pakistan, ensuring that minerals and raw materials are delivered safely and on time to every region. We manage end-to-end distribution agreements at a national level, covering everything from single truckload deliveries to bulk shipments across major industrial hubs and ports. Our services include road transport, warehousing, tolling, and full compliance with local regulations and safety standards to guarantee seamless operations throughout the country.",
+ },
 ];
 
 
