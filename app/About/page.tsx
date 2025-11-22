@@ -33,7 +33,7 @@ export default function Page(){
 
         <div className="relative w-full mt-20 h-auto bg-[url('/aboutimg3.jpg')] bg-cover bg-center flex flex-col items-center justify-center">
             <h1 className="text-white text-center font-sans font-bold text-4xl pt-4 bg-linear-to-b from-black/40 to-transparent">Logistics & Export Operations</h1>
-            <div className="relative w-full h-auto flex flex-col md:flex-row items-center jusitfy-center md:justify-evenly gap-8">
+            <div className="relative w-full h-auto flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-evenly gap-8">
                 <div className="relative w-[95%] max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-4 py-2">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Operations</h1>
                     <h1 className="text-[22px] text-blue-900">Transport</h1>
