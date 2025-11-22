@@ -12,7 +12,7 @@ const services = [
   {
     title: "Market Support",
     description:
-      "Nubia Mining provides tailored solutions to help customers maximize value while minimizing risk. Our extensive global network enables us to stay ahead of rapidly changing market conditions and respond efficiently. Our team operates locally across multiple regions—financially and culturally—to expedite transactions seamlessly.",
+      "Nubia Mining offers comprehensive market support, connecting clients with high-quality minerals and raw materials. Leveraging our extensive operational expertise and regional presence, we ensure reliable supply, timely deliveries, and efficient transaction management to meet the demands of modern industries.",
   },
   {
     title: "Off-Take Agreements",
