@@ -73,11 +73,13 @@ const services = [
           materials to market faster, efficiently, with less risk and less working capital.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 auto-rows-fr justify-items-center">
+      <div className="flex flex-wrap justify-center gap-4 px-4 md:px-8 lg:px-16">
         {services.map((service, index) => (
-            <SingleService key={index} title={service.title} description={service.description} />
+          <div key={index} className="w-full md:w-[48%]">
+            <SingleService title={service.title} description={service.description} />
+          </div>
         ))}
-        </div>
+      </div>
 
       </div>
 

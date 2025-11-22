@@ -95,7 +95,7 @@ export default function Page(){
         <CoreValues />
 
         {/* News Section */}
-        <News />
+        {/* <News /> */}
 
     </div>)
 }
