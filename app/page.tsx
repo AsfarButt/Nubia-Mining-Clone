@@ -29,24 +29,24 @@ export default function Page(){
             <div className="relative w-full md:w-[50%] h-auto">
                 <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">Nubia Mining at a Glance</h1>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
                         <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">EMERGING MINING & TRADING HOUSE</h1>
                         <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Building a diversified portfolio in Pakistan & GCC</h2>
                         {/* <h2 className="text-[24px] font-bold text-center text-black/95">Pakistan & GCC</h2> */}
                     </div>
-                    <div className="relative w-[50%] h-auto border py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
                         <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">FOCUS ON CRITICAL MINERALS</h1>
                         <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Copper, Antimony, Gold & Strategic Metals</h2>
                         {/* <h2 className="text-[24px] text-black/95">Copper, Antimony, Gold & Strategic Metals</h2> */}
                     </div>
                 </div>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
                         <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">STRATEGIC ALLIANCES</h1>
                         <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Working with leading Engineering & Logistics partners</h2>
                         {/* <h2 className="text-[24px] text-black/95">EMPLOYEES</h2> */}
                     </div>
-                    <div className="relative w-[50%] h-auto border py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
                         <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">PROJECTS IN PIPELINE</h1>
                         <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Multiple concessions under evaluation & development</h2>
                         {/* <h2 className="text-[24px] text-black/95">HISTORY</h2> */}
