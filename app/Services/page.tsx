@@ -24,21 +24,6 @@ const services = [
     description:
       "As a global company, Nubia Mining partners with logistics providers worldwide to ensure that your products are delivered safely and on time. We support end-to-end distribution agreements—whether regional, national, or international—covering everything from single truckload deliveries to multiple shipments at major ports. Our services include Ocean/Land transportation, warehousing, tolling, and compliance with US and EU customs, REACH regulations, and the United States-Mexico-Canada Agreement (USMCA).",
   },
-  {
-    title: "Financial Services",
-    description:
-      "Nubia Mining offers comprehensive financial services to help you manage price volatility and forecast revenue with confidence. Our expertise in industry-specific pricing allows us to provide tailored financial solutions that support your business objectives.",
-  },
-  {
-    title: "Risk Management",
-    description:
-      "Navigating new markets or unconventional customers carries inherent risk that can impact cash flow. Nubia Mining applies international industry expertise to structure risk mitigation strategies that protect your business and ensure continuity.",
-  },
-  {
-    title: "Funding Solutions",
-    description:
-      "Nubia Mining provides flexible funding solutions, ranging from working capital support to structured long-term financing. Our goal is to empower suppliers and customers with the financial resources they need to grow and succeed.",
-  },
 ];
 
 
