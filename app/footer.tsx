@@ -18,7 +18,7 @@ export default function Footer(){
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2" href="/About">About us
             <li className="cursor-pointer mt-4 text-[13px] text-yellow-100/55 hover:text-white/85">About Nubia</li>
             <li className="cursor-pointer text-[13px] text-yellow-100/55 hover:text-white/85">Mission</li>
-            <li className="cursor-pointer text-[13px] text-yellow-100/55 hover:text-white/85">Logistics</li>
+            <li className="cursor-pointer text-[13px] text-yellow-100/55 hover:text-white/85">Locations</li>
             <li className="cursor-pointer text-[13px] text-yellow-100/55 hover:text-white/85">Our Team</li>
             </a>
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal md:border-l-2 md:border-gray-200/60 pl-2" href="/Products">Products</a>

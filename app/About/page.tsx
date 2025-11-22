@@ -41,7 +41,7 @@ export default function Page(){
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
                     <h1 className="text-[14px] text-black/80">Export Volume: Monthly Shipment as per client requirments.</h1>
                 </div>
-                <div className="relative w-[95%] max-w-100 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
+                <div className="relative w-[95%] max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Shipping</h1>
                     <h1 className="text-[22px] pt-4 text-blue-900">Shipping Options</h1>
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
@@ -50,7 +50,6 @@ export default function Page(){
                     <li className="text-[14px] text-black/80">Compliance: All operations follow SGS-certified procedures ensuring full export intergrity.</li>
                 </div>
             </div>
-
         </div>
 
         <div className="relative w-full px-4 md:px-8 lg:px-16 bg-white">
