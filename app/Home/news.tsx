@@ -37,7 +37,7 @@ export default function News(){
             {/* Row 1 */}
             <div className="w-full flex flex-col md:flex-row gap-6 justify-center">
             {/* News Card */}
-            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-150 text-white/75" ref={element1}>
+            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-100 md:delay-150 text-white/75" ref={element1}>
                 <div className="flex items-center justify-center min-w-10">
                 <div className="w-10 h-10 rounded-full border border-white flex items-center justify-center text-white font-bold hover:bg-white/10 transition-all duration-400">&gt;</div>
                 </div>
@@ -49,7 +49,7 @@ export default function News(){
                 </div>
             </div>
 
-            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-300 text-white/75" ref={element2}>
+            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-200 md:delay-300 text-white/75" ref={element2}>
                 <div className="flex items-center justify-center min-w-10">
                 <div className="w-10 h-10 rounded-full border border-white flex items-center justify-center text-white font-bold hover:bg-white/10 transition-all duration-400">&gt;</div>
                 </div>
@@ -64,7 +64,7 @@ export default function News(){
 
             {/* Row 2 */}
             <div className="w-full flex flex-col md:flex-row gap-6 justify-center">
-            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-150 text-white/75" ref={element3}>
+            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-300 md:delay-150 text-white/75" ref={element3}>
                 <div className="flex items-center justify-center min-w-10">
                 <div className="w-10 h-10 rounded-full border border-white flex items-center justify-center text-white font-bold hover:bg-white/10 transition-all duration-400">&gt;</div>
                 </div>
@@ -76,7 +76,7 @@ export default function News(){
                 </div>
             </div>
 
-            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-300 text-white/75" ref={element4}>
+            <div className="relative w-[90%] md:w-[45%] p-4 border-b-2 border-white/40 flex flex-row items-start gap-4 -translate-x-15 opacity-0 transition-all duration-600 ease-out delay-400 md:delay-300 text-white/75" ref={element4}>
                 <div className="flex items-center justify-center min-w-10">
                 <div className="w-10 h-10 rounded-full border border-white flex items-center justify-center text-white font-bold hover:bg-white/10 transition-all duration-400">&gt;</div>
                 </div>

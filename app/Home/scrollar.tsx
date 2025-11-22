@@ -10,7 +10,7 @@ export default function Scrollar(){
     const isDisabled = useRef(false);
 
     const Data = [
-    { state: "Sindh", city: "Karachi" },
+    { state: "Punjab", city: "Rawalpindi" },
     { state: "Federal Territory", city: "Islamabad" },
     { state: "Gilgit-Baltistan", city: "Gilgit" }
     ];
