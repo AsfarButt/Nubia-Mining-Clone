@@ -9,16 +9,11 @@ export default function Scrollar(){
     const container = useRef<HTMLHeadingElement | null>(null);
     const isDisabled = useRef(false);
 
-const Data = [  { state: "Sindh", city: "Karachi" },
-                { state: "Punjab", city: "Faisalabad" },
-                { state: "Punjab", city: "Lahore" },
-                { state: "Punjab", city: "Sialkot" },
-                { state: "Punjab", city: "Gujranwala" },
-                { state: "Federal Territory", city: "Islamabad / Rawalpindi" },
-                { state: "Balochistan", city: "Hub" },
-                { state: "Punjab", city: "Multan" },
-                { state: "Sindh", city: "Port Qasim" },
-                { state: "Khyber Pakhtunkhwa", city: "Peshawar" }];
+    const Data = [
+    { state: "Sindh", city: "Karachi" },
+    { state: "Federal Territory", city: "Islamabad" },
+    { state: "Gilgit-Baltistan", city: "Gilgit" }
+    ];
 
 
     function MoveLeft(){

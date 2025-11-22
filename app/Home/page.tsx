@@ -27,29 +27,29 @@ export default function Page(){
         {/* Second Section */}
         <div className="relative w-full h-auto flex flex-col md:flex-row flex-wrap items-center justify-center bg-white">
             <div className="relative w-full md:w-[50%] h-auto">
-                <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/75 text-[22px]">Nubia Mining at a Glance</h1>
+                <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">Nubia Mining at a Glance</h1>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] text-black/95 font-bold font-sans">$10.0B+</h1>
-                        <h2 className="text-[24px] text-red-600/90">ANNUAL</h2>
-                        <h2 className="text-[24px] text-black/95">REVENUE</h2>
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                        <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">EMERGING MINING & TRADING HOUSE</h1>
+                        <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Building a diversified portfolio in Pakistan & GCC</h2>
+                        {/* <h2 className="text-[24px] font-bold text-center text-black/95">Pakistan & GCC</h2> */}
                     </div>
-                    <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] text-black/95 font-bold font-sans">65+</h1>
-                        <h2 className="text-[24px] text-red-600/90">COMMODITIES</h2>
-                        <h2 className="text-[24px] text-black/95">TRADED</h2>
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                        <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">FOCUS ON CRITICAL MINERALS</h1>
+                        <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Copper, Antimony, Gold & Strategic Metals</h2>
+                        {/* <h2 className="text-[24px] text-black/95">Copper, Antimony, Gold & Strategic Metals</h2> */}
                     </div>
                 </div>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] text-black/95 font-bold font-sans">400+</h1>
-                        <h2 className="text-[24px] text-red-600/90">GLOBAL</h2>
-                        <h2 className="text-[24px] text-black/95">EMPLOYEES</h2>
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                        <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">STRATEGIC ALLIANCES</h1>
+                        <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Working with leading Engineering & Logistics partners</h2>
+                        {/* <h2 className="text-[24px] text-black/95">EMPLOYEES</h2> */}
                     </div>
-                    <div className="relative w-[50%] h-auto border py-2 md:py-4 lg:py-6 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[36px] text-black/95 font-bold font-sans">100+</h1>
-                        <h2 className="text-[24px] text-red-600/90">YEARS OF</h2>
-                        <h2 className="text-[24px] text-black/95">HISTORY</h2>
+                    <div className="relative w-[50%] h-auto border px-2 py-4 md:py-6 lg:py-8 border-gray-600/80 flex flex-col items-center jusity-center">
+                        <h1 className="text-[32px] text-black/95 text-center font-bold font-sans">PROJECTS IN PIPELINE</h1>
+                        <h2 className="text-[24px] text-center text-red-700/90 font-sans font-medium">Multiple concessions under evaluation & development</h2>
+                        {/* <h2 className="text-[24px] text-black/95">HISTORY</h2> */}
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ export default function Page(){
                 {/* Scrollar */}
                 <Scrollar />
                 <div className="relative mb-2 w-full h-0.5 bg-gray-600/60" />
-                <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Over 20 Global Offices</h1>
+                <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Offices Across the Country</h1>
                 <a href="/About/locations" className="p-2 px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
             </div>
         </div>
@@ -102,7 +102,7 @@ export default function Page(){
                 <div className="flex flex-col">
                 <h1 className="text-[17px] text-red-800/70">2025-04-12</h1>
                 <h2 className="text-[20px] text-black/85">
-                    Recent studies in the field of minerals have highlighted exciting discoveries of rare earth elements in previously unexplored regions
+                  Recent studies have revealed significant deposits of rare earth elements in previously unexplored regions, opening new opportunities in the global mineral sector.
                 </h2>
                 </div>
             </div>
@@ -114,7 +114,7 @@ export default function Page(){
                 <div className="flex flex-col">
                 <h1 className="text-[17px] text-red-800/70">2025-08-07</h1>
                 <h2 className="text-[20px] text-black/85">
-                    Statement on Responsible Supply Chain Management & Proactive Due Diligence Measures
+                    Statement issued on strengthening responsible supply chain practices, emphasizing proactive due-diligence measures across all operational stages.
                 </h2>
                 </div>
             </div>
@@ -129,7 +129,7 @@ export default function Page(){
                 <div className="flex flex-col">
                 <h1 className="text-[17px] text-red-800/70">2025-01-23</h1>
                 <h2 className="text-[20px] text-black/85">
-                    Nubia Mining, Pure Aluminum and Consortium Metals Form Strategic Partnership to Expand Sustainable Aluminum Production all over Pakistan
+                   Nubia Mining have formed a strategic alliances to expand sustainable production all across Pakistan.
                 </h2>
                 </div>
             </div>
@@ -141,7 +141,7 @@ export default function Page(){
                 <div className="flex flex-col">
                 <h1 className="text-[17px] text-red-800/70">2025-07-31</h1>
                 <h2 className="text-[20px] text-black/85">
-                    Minerals can be recycled from old electronics and industrial products, helping to conserve natural reserves.
+                    Researchers highlight that minerals can be efficiently recovered from discarded electronics and industrial waste, supporting long-term conservation of natural resources.
                 </h2>
                 </div>
             </div>
