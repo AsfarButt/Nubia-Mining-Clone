@@ -41,14 +41,14 @@ const services = [
       {/* Hero Section */}
       <div className="relative w-full h-160 flex items-center justify-center bg-[url('/servicesimg1.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 z-1 backdrop-blur-[2px]" />
-        <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start z-2">
-          <div className="w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white shadow-md shadow-black/40">
-            <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / Services</h1>
-            <h1 className="text-[22px] text-blue-900">
+        <div className="onstartanimation relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start z-2">
+          <div className="onstartanimation delay-50 w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white shadow-md shadow-black/40">
+            <h1 className=" text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / Services</h1>
+            <h1 className="onstartanimation delay-200 text-[22px] text-blue-900">
               Comprehensive, Personalized Services for a Dynamic Industry
             </h1>
             <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
-            <h1 className="text-[14px] text-black/80">
+            <h1 className="onstartanimation delay-300 text-[14px] text-black/80">
               At Nubia Mining we represent your local interests - worldwide. We offer expertise
               every step of the way, enabling business opportunities and minimizing risk as we
               take raw materials from mine to market.

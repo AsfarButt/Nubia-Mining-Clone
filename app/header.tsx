@@ -15,7 +15,7 @@ export default function Header(){
         <div className="relative w-auto h-full flex flex-row items-center justify-center gap-2 scale-80 sm:scale-100">
             {/* <div className="relative h-full w-13 scale-85 rotate-y-180 bg-white mask-[url(/pickaxe.png)] mask-cover mask-center" />
             <h1 className={`relative text-2xl text-white ${cormorant.className}`}>Nubia Mining</h1> */}
-            <div className="relative w-28 sm:w-32 h-28 mt-2 bg-[url('/brandtext.png')] bg-center bg-cover"></div>
+            <a className="relative w-28 sm:w-32 h-28 mt-2 bg-[url('/brandtext.png')] bg-center bg-cover" href="/"></a>
         </div>
         <div className="relative w-[85%] md:w-[30%] h-full flex flex-row items-center justify-between z-2">
             <a className="relative w-full h-full list-none text-gray-200/90 flex items-center text-[15px] sm:text-[17px] font-sans hover:text-yellow-500/85 justify-center sm:px-1" href="/Home">Home</a>

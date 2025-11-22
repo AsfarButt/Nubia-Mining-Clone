@@ -85,7 +85,7 @@ export default function Page() {
         </div>
 
       {/* Products Section */}
-      <h2 className="px-4 md:px-6 mt-12 text-left  underline decoration-red-600/90 text-2xl md:text-3xl">
+      <h2 className="px-4 md:px-6 mt-12  bg-white text-left text-black/95 underline decoration-red-600/90 text-2xl md:text-3xl">
         Products
       </h2>
 

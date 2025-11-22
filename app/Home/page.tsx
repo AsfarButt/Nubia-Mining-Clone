@@ -26,41 +26,78 @@ export default function Page(){
         </div>
 
         {/* Second Section */}
-        <div className="relative w-full h-auto flex flex-col md:flex-row flex-wrap items-center justify-center bg-white">
-            <div className="relative w-full md:w-[50%] h-auto">
-                <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">Nubia Mining at a Glance</h1>
-                <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">EMERGING MINING & TRADING HOUSE</h1>
-                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Building a diversified portfolio in Pakistan & GCC</h2>
-                        {/* <h2 className="text-[24px] font-bold text-center text-black/95">Pakistan & GCC</h2> */}
-                    </div>
-                    <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">FOCUS ON CRITICAL MINERALS</h1>
-                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Copper, Antimony, Gold & Strategic Metals</h2>
-                        {/* <h2 className="text-[24px] text-black/95">Copper, Antimony, Gold & Strategic Metals</h2> */}
-                    </div>
-                </div>
-                <div className="relative w-full h-[50%] flex flex-row flex-wrap">
-                    <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">STRATEGIC ALLIANCES</h1>
-                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Working with leading Engineering & Logistics partners</h2>
-                        {/* <h2 className="text-[24px] text-black/95">EMPLOYEES</h2> */}
-                    </div>
-                    <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">PROJECTS IN PIPELINE</h1>
-                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Multiple concessions under evaluation & development</h2>
-                        {/* <h2 className="text-[24px] text-black/95">HISTORY</h2> */}
-                    </div>
+        <div className="relative w-full flex flex-col md:flex-row flex-wrap items-stretch justify-center bg-white">
+            <div className="relative w-full md:w-[50%] flex-1 box-border">
+                    <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">
+                        Nubia Mining at a Glance
+                    </h1>
+                    <div className="grid grid-cols-2 grid-rows-2 flex-1">
+                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
+                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center text-gray-900/95">
+                                EMERGING MINING & TRADING HOUSE
+                            </h1>
+                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
+                                Building a diversified portfolio in Pakistan & GCC
+                            </h2>
+                        </div>
+
+                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
+                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center text-gray-900/95">
+                                FOCUS ON CRITICAL MINERALS
+                            </h1>
+                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
+                                Copper, Antimony, Gold & Strategic Metals
+                            </h2>
+                        </div>
+
+                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
+                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center text-gray-900/95">
+                                STRATEGIC ALLIANCES
+                            </h1>
+                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
+                                Working with leading Engineering & Logistics partners
+                            </h2>
+                        </div>
+
+                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
+                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center text-gray-900/95">
+                                PROJECTS IN PIPELINE
+                            </h1>
+                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
+                                Multiple concessions under evaluation & development
+                            </h2>
+                        </div>
                 </div>
             </div>
 
-            <div className="relative px-12 w-full md:w-[50%] h-85 flex flex-col items-center justify-center">
-                {/* Scrollar */}
+            {/* Scrollar */}
+            <div className="relative md:border-b border-gray-800/90 px-4 md:px-0 py-14 sm:py-10 md:py-4 w-full md:w-[50%] flex-1 box-border flex flex-col items-center justify-center">
                 <Scrollar />
-                <div className="relative mb-2 w-full h-0.5 bg-gray-600/60" />
+                <div className="relative mb-2 w-[90%] md:w-[85%] h-0.5 bg-gray-600/60" />
                 <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Offices Across the Country</h1>
                 <a href="/About" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
+            </div>
+            
+        </div>
+
+        {/* Vision Section */}
+        <div className="relative w-full py-8 md:pt-8 h-auto px-2 bg-white to-gray-950/95 text-black md:px-4 flex flex-col justify-center items-center">
+            <h1 className="text-center text-[32px] md:text-[36px] font-sans font-semibold underline decoration-red-600/85">Vision</h1>
+            <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
+                <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-start">
+                    <img src="/visionimg1.avif" alt="Image 1" className="relative w-70 h-70 lg:h-80 lg:w-80 transition-all duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
+                </div>
+                <div className="relative w-fit px-4 md:pr-10">
+                    <p className="text-[18px] md:text-[20px] font-sans text-center line-clamp-5 md:text-left">Our vision is to be a globally trusted leader in the responsible exploration, development, and trade of precious metals. We are committed to upholding the highest standards of integrity and transparency in all our operations. By leveraging cutting-edge technology and innovative methodologies, we aim to optimize resource development while minimizing environmental impact, ensuring our growth benefits the communities and regions where we operate.</p>
+                </div>
+            </div>
+            <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
+                <div className="relative w-fit px-4 md:pr-10">
+                    <p className="text-[18px] md:text-[20px] font-sans text-center line-clamp-5 md:text-left">We strive to drive sustainability across the global resources sector by setting benchmarks in responsible mining and trade. Our mission goes beyond production; we focus on creating long-term value for stakeholders, fostering partnerships, and continuously innovating to meet global market demands. Through dedication to transparency, accountability, and excellence, we aim to shape the future of the precious metals industry while inspiring trust worldwide.</p>
+                </div>
+                <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-end">
+                    <img src="/visionimg2.avif" alt="Image 2" className="relative w-70 h-70 lg:h-80 lg:w-80 transition-all duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
+                </div>
             </div>
         </div>
 

@@ -1,4 +1,4 @@
-
+import Assets from "./assets";
 
 
 export default function Page(){
@@ -74,5 +74,8 @@ export default function Page(){
                 </li>
             </div>
         </div>
+
+        {/* Assets */}
+        <Assets />
     </div>)
 }
