@@ -67,22 +67,22 @@ export default function Page(){
         <div className="relative flex flex-col md:flex-row items-center justify-center">
             <div className="parentelement relative w-full h-140 bg-[url('/sectionleftimage.jpg')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
                 <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
-                    <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
+                    <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
                         Tailored solutions at every stage of mining operations, designed to maximize efficiency, safety, and sustainability.
                     </h2>
-                    <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Services">
+                    <a className="p-2 mb-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Services">
                         Discover Our Services
                     </a>
                 </div>
             </div>
             <div className="parentelement relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
                 <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
-                    <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
+                    <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
                         High-quality minerals and raw materials, responsibly sourced from our mines and delivered to meet modern industrial demands.
                     </h2>
-                    <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Products">
+                    <a className="p-2 mb-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Products">
                         Discover Our Products
                     </a>
                 </div>
