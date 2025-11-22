@@ -30,25 +30,25 @@ export default function Page(){
                 <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">Nubia Mining at a Glance</h1>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
                     <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[28px] text-gray-900/95 text-center font-bold font-sans">EMERGING MINING & TRADING HOUSE</h1>
-                        <h2 className="text-[22px] text-center text-red-700/90 font-sans font-medium">Building a diversified portfolio in Pakistan & GCC</h2>
+                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">EMERGING MINING & TRADING HOUSE</h1>
+                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Building a diversified portfolio in Pakistan & GCC</h2>
                         {/* <h2 className="text-[24px] font-bold text-center text-black/95">Pakistan & GCC</h2> */}
                     </div>
                     <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[28px] text-gray-900/95 text-center font-bold font-sans">FOCUS ON CRITICAL MINERALS</h1>
-                        <h2 className="text-[22px] text-center text-red-700/90 font-sans font-medium">Copper, Antimony, Gold & Strategic Metals</h2>
+                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">FOCUS ON CRITICAL MINERALS</h1>
+                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Copper, Antimony, Gold & Strategic Metals</h2>
                         {/* <h2 className="text-[24px] text-black/95">Copper, Antimony, Gold & Strategic Metals</h2> */}
                     </div>
                 </div>
                 <div className="relative w-full h-[50%] flex flex-row flex-wrap">
                     <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[28px] text-gray-900/95 text-center font-bold font-sans">STRATEGIC ALLIANCES</h1>
-                        <h2 className="text-[22px] text-center text-red-700/90 font-sans font-medium">Working with leading Engineering & Logistics partners</h2>
+                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">STRATEGIC ALLIANCES</h1>
+                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Working with leading Engineering & Logistics partners</h2>
                         {/* <h2 className="text-[24px] text-black/95">EMPLOYEES</h2> */}
                     </div>
                     <div className="relative w-[50%] h-auto border px-2 py-6 md:py-8 lg:py-10 border-gray-600/80 flex flex-col items-center jusity-center">
-                        <h1 className="text-[28px] text-gray-900/95 text-center font-bold font-sans">PROJECTS IN PIPELINE</h1>
-                        <h2 className="text-[22px] text-center text-red-700/90 font-sans font-medium">Multiple concessions under evaluation & development</h2>
+                        <h1 className="text-[22px] md:text-[23px] lg:text-[24px] text-gray-900/95 text-center font-bold font-sans">PROJECTS IN PIPELINE</h1>
+                        <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-sans font-medium">Multiple concessions under evaluation & development</h2>
                         {/* <h2 className="text-[24px] text-black/95">HISTORY</h2> */}
                     </div>
                 </div>
@@ -59,27 +59,36 @@ export default function Page(){
                 <Scrollar />
                 <div className="relative mb-2 w-full h-0.5 bg-gray-600/60" />
                 <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Offices Across the Country</h1>
-                <a href="/About/locations" className="p-2 px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
+                <a href="/About/locations" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
             </div>
         </div>
 
         {/* Third Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-center">
             <div className="parentelement relative w-full h-140 bg-[url('/sectionleftimage.jpg')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
-            <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
-            <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
-            <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">Comprehensive, personalized services for a dynamic industry.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Services">Discover Our Services</a>
-            </div>
+                <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
+                    <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
+                    <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
+                        Tailored solutions at every stage of mining operations, designed to maximize efficiency, safety, and sustainability.
+                    </h2>
+                    <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Services">
+                        Discover Our Services
+                    </a>
+                </div>
             </div>
             <div className="parentelement relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
-            <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
-            <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
-            <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">From mine to market, we source essential elements of modern life.</h2>
-            <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Products">Discover Our Products</a>
-            </div>
+                <div className="childelement relative w-[75%] max-w-120 h-70 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
+                    <h1 className="text-[28px] font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
+                    <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
+                        High-quality minerals and raw materials, responsibly sourced from our mines and delivered to meet modern industrial demands.
+                    </h2>
+                    <a className="p-2 rounded-lg mt-4 bg-red-600/65 group-hover:bg-red-600/80 text-white text-[20px] transition-all duration-150 font-bold" href="/Products">
+                        Discover Our Products
+                    </a>
+                </div>
             </div>
         </div>
+
         
         {/* Core Values */}
         <CoreValues />
