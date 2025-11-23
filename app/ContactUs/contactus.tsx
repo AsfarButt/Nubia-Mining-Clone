@@ -8,22 +8,22 @@ export default function Page() {
   const [message, setMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+    // e.preventDefault();
 
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, message }),
-    });
+    // const res = await fetch("/api/contact", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify({ name, email, message }),
+    // });
 
-    if (res.ok) {
-      alert("Message sent successfully!");
-      setName("");
-      setEmail("");
-      setMessage("");
-    } else {
-      alert("Failed to send message.");
-    }
+    // if (res.ok) {
+    //   alert("Message sent successfully!");
+    //   setName("");
+    //   setEmail("");
+    //   setMessage("");
+    // } else {
+    //   alert("Failed to send message.");
+    // }
   };
 
   return (
