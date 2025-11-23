@@ -85,8 +85,8 @@ export default function Assets() {
 
 
   return (
-    <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto py-10 flex flex-col items-center justify-center bg-gray-100">
-      <div className="relative w-full md:w-[50%] h-auto flex flex-col items-center justify-center">
+    <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto flex flex-row items-stretch justify-center bg-gray-100">
+      <div className="relative w-full md:w-[65%] h-auto flex flex-col items-center justify-center">
       <h1 className="relative w-full md:text-left text-center text-gray-950/95 font-sans mt-10 p-2 underline decoration-red-600 text-[34px] font-bold">
         Assets
       </h1>
@@ -94,11 +94,11 @@ export default function Assets() {
         Mining blocks and key mineral resources
       </h2>
       
-      <ul className="w-full flex flex-col items-center justify-center">
+      <ul className="w-full flex flex-col items-center list-disc">
         {assets.map((element, index) => (
           <li
             key={index}
-            className="relative mt-4 w-[95%] h-auto flex flex-col items-center justify-center md:items-start border-b pb-4 border-gray-900/85"
+            className="relative mt-4 w-full h-auto flex flex-col items-center justify-center md:items-start border-b pb-4 border-gray-900/85"
           >
             <h1 className="text-[28px] text-red-700/95 font-sans font-bold">{element.title}</h1>
             <h4 className="font-semibold font-sans text-[28px] text-black/95">{element.value}</h4>
@@ -110,7 +110,7 @@ export default function Assets() {
         ))}
       </ul>
       </div>
-      <div className="relative hidden md:block w-[50%] bg-[url('/assetsimg2.jpg')] bg-cover bg-center h-full"></div>
+      <div className="relative hidden w-full md:w-[50%] bg-[url('/assetsimg2.jpg')] bg-cover bg-center h-full min-h-100"></div>
 
 
     </div>
