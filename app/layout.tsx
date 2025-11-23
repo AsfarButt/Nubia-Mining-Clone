@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nubia Mining Limited",
-  description: "From the fields of KP",
+  description: "From the fields of KPK",
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -31,7 +31,7 @@ export default function RootLayout({
         <link rel="preload" as="image" href="/brandtext.png" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden overflow-y-scroll`}>
-        <Header />
+        <Header Selection={0}/>
         {children}
         <Footer />
       </body>

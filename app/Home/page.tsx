@@ -85,7 +85,7 @@ export default function Page(){
             <h1 className="text-center text-[32px] md:text-[36px] font-sans font-semibold underline decoration-red-600/85">Vision</h1>
             <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
                 <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-start">
-                    <img src="/visionimg1.avif" alt="Image 1" className="relative w-70 h-70 lg:h-80 lg:w-80 transition-all duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
+                    <img src="/visionimg1.avif" alt="Image 1" className="relative w-80 h-70 lg:h-80 lg:w-80 transition-all opacity-90 duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
                 </div>
                 <div className="relative w-fit px-4 md:pr-10">
                     <div className="text-[18px] md:text-[20px] font-sans text-center text-black/90 line-clamp-5 md:text-left">Our Vision is to be a <span className="text-gray-950">Globally Trusted Leader</span> in the responsible exploration, development, and trade of precious minerals. We are committed to upholding the highest standards of integrity and transparency in all our operations. By leveraging cutting-edge technology and innovative methodologies, we aim to optimize resource development while minimizing environmental impact, ensuring our growth benefits the communities and regions where we operate.</div>
@@ -93,10 +93,10 @@ export default function Page(){
             </div>
             <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
                 <div className="relative w-fit px-4 md:pr-10">
-                    <p className="text-[18px] md:text-[20px] font-sans text-center line-clamp-5 md:text-left">We strive to drive sustainability across the global resources sector by setting benchmarks in responsible mining and trade. Our mission goes beyond production; we focus on creating long-term value for stakeholders, fostering partnerships, and continuously innovating to meet global market demands. Through dedication to transparency, accountability, and excellence, we aim to shape the future of the precious metals industry while inspiring trust worldwide.</p>
+                    <p className="text-[18px] md:text-[20px] font-sans text-center line-clamp-5 md:text-left">We Strive to drive Sustainability Across the Global Resources Sector by setting benchmarks in responsible mining and trade. Our mission goes beyond production; we focus on creating long-term value for stakeholders, fostering partnerships, and continuously innovating to meet global market demands. Through dedication to transparency, accountability, and excellence, we aim to shape the future of the precious metals industry while inspiring trust worldwide.</p>
                 </div>
                 <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-end">
-                    <img src="/visionimg2.avif" alt="Image 2" className="relative w-70 h-70 lg:h-80 lg:w-80 transition-all duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
+                    <img src="/visionimg2.avif" alt="Image 2" className="relative w-80 h-70 lg:h-80 lg:w-80 transition-all opacity-90 duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
                 </div>
             </div>
         </div>
