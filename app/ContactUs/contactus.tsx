@@ -7,29 +7,18 @@ export default function Page() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [ShownText, setShownText] = useState("Send Email");
-  const button1 = useRef<HTMLButtonElement | null>(null);
+  const [ButtonColor, setButtonColor] = useState("bg-blue-950/85 hover:bg-blue-950/95");
 
   const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
     setShownText("Email Sent");
-    button1.current?.classList.replace("bg-blue-950/85","bg-green-500/85");
-    setTimeout(() => {button1.current?.classList.replace("bg-green-500/85","bg-blue-950/85"); setShownText("Send Email");},3500)
+    setButtonColor("bg-green-500/85"); // instantly updates
 
-    // e.preventDefault();
-
-    // const res = await fetch("/api/contact", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify({ name, email, message }),
-    // });
-
-    // if (res.ok) {
-    //   alert("Message sent successfully!");
-    //   setName("");
-    //   setEmail("");
-    //   setMessage("");
-    // } else {
-    //   alert("Failed to send message.");
-    // }
+    setTimeout(() => {
+      setButtonColor("bg-blue-950/85 hover:bg-blue-950/95");
+      setShownText("Send Email");
+      window.location.reload();
+    }, 2000);
   };
 
   return (
@@ -51,7 +40,7 @@ export default function Page() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email"
+            placeholder="Enter your email (optional)"
             className="w-full border border-gray-300 p-3 rounded-lg focus:outline-1 outline-blue-950/95"
           />
 
@@ -64,8 +53,8 @@ export default function Page() {
 
           <button
             type="submit"
-            className="w-full bg-blue-950/85 hover:bg-blue-950/95 text-white py-3 rounded-lg font-semibold transition-all duration-300"
-          ref={button1}>
+            className={`${ButtonColor} w-full text-white py-3 rounded-lg font-semibold transition-all duration-300`}
+            >
             {ShownText}
           </button>
         </form>
