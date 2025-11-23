@@ -98,12 +98,12 @@ export default function Assets() {
         {assets.map((element, index) => (
           <li
             key={index}
-            className="relative mt-4 w-full h-auto flex flex-col items-center justify-center md:items-start border-b pb-4 border-gray-900/85"
+            className="relative mt-4 w-full h-auto flex flex-col items-center justify-center md:items-start border-b pb-4 border-gray-900/85 group"
           >
-            <h1 className="text-[28px] text-red-700/95 font-sans font-bold">{element.title}</h1>
-            <h4 className="font-semibold font-sans text-[28px] text-black/95">{element.value}</h4>
-            <h2 className="text-[14px] text-gray-800/85">{element.location}</h2>
-            <h2 className="font-mono text-[18px] px-4 md:px-0 text-center mt-2">
+            <h1 className="text-[28px] text-red-700/95 font-sans font-bold group-hover:scale-105 delay-0 origin-bottom transition-all duration-200">{element.title}</h1>
+            <h4 className="font-semibold font-sans text-[28px] text-black/95 group-hover:scale-105 delay-150 origin-bottom transition-all duration-200">{element.value}</h4>
+            <h2 className="text-[14px] text-gray-800/85 group-hover:scale-105 delay-100 origin-bottom transition-all duration-250">{element.location}</h2>
+            <h2 className="font-mono text-[18px] px-4 md:px-0 text-center mt-2 group-hover:scale-105 delay-350 origin-bottom transition-all duration-200">
               {element.description}
             </h2>
           </li>

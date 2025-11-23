@@ -1,13 +1,19 @@
 "use client"; // THIS MAKES THE PAGE CSR
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function Page() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [ShownText, setShownText] = useState("Send Email");
+  const button1 = useRef<HTMLButtonElement | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
+    setShownText("Email Sent");
+    button1.current?.classList.replace("bg-blue-950/85","bg-green-500/85");
+    setTimeout(() => {button1.current?.classList.replace("bg-green-500/85","bg-blue-950/85"); setShownText("Send Email");},3500)
+
     // e.preventDefault();
 
     // const res = await fetch("/api/contact", {
@@ -58,9 +64,9 @@ export default function Page() {
 
           <button
             type="submit"
-            className="w-full bg-blue-950/85 hover:bg-blue-950/95 text-white py-3 rounded-lg font-semibold transition"
-          >
-            Send Message
+            className="w-full bg-blue-950/85 hover:bg-blue-950/95 text-white py-3 rounded-lg font-semibold transition-all duration-300"
+          ref={button1}>
+            {ShownText}
           </button>
         </form>
       </div>
