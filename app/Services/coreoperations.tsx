@@ -14,6 +14,7 @@ export default function CoreOperations(){
                 elements.forEach((element, index) => {
                     if(element.isIntersecting){
                     element.target.classList.remove("-translate-x-15","opacity-0");
+                    observer.unobserve(element.target);
                     }
                 })
         },{threshold: 0.5})

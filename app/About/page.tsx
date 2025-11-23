@@ -3,7 +3,7 @@ import Assets from "./assets";
 
 export default function Page(){
 
-    return(<div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center">
+    return(<div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center bg-white">
       {/* Hero Section */}
         <div className="relative w-full h-160 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
             <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
@@ -16,13 +16,13 @@ export default function Page(){
             </div>
         </div>
 
-        <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto bg-white">
+        <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
             <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-medium">Mission</h1>
             <h2 className="font-semibold mt-4 text-gray-800/85">Delivering Excellence Through Innovation and Intergrity</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards  of integrity, transparency, and envirnomental stewardship. We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communnities, and stakeholders worldwide.</p>
         </div>
 
-        <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto bg-white">
+        <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
             <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-medium">Locations</h1>
             <h2 className="font-semibold mt-4 text-gray-800/85">Nubia Mining operates from two offices within Pakistan, strategically located to serve our regional and national operations efficiently.</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">We have two locations in Pakistan: 
@@ -33,15 +33,15 @@ export default function Page(){
 
         <div className="relative w-full mt-20 h-auto bg-[url('/aboutimg3.jpg')] bg-cover bg-center flex flex-col items-center justify-center">
             <h1 className="text-white text-center font-sans font-bold text-4xl pt-4 bg-linear-to-b from-black/40 to-transparent">Logistics & Export Operations</h1>
-            <div className="relative w-full h-auto flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-evenly gap-8">
-                <div className="relative w-[90%] sm:w-[95%] max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-4 py-2">
+            <div className="relative w-[90%] h-auto flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-evenly gap-8">
+                <div className="relative w-full max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-4 py-2">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Operations</h1>
                     <h1 className="text-[22px] text-blue-900">Transport</h1>
                     <h1 className="text-[14px] text-black/80">20-30 MT sealed, containerized, GPS-tracked trucksm monitored by SOS -- direct mine-to-Karachi delivery.</h1>
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
                     <h1 className="text-[14px] text-black/80">Export Volume: Monthly Shipment as per client requirments.</h1>
                 </div>
-                <div className="relative w-[90%] sm:w-[95%] max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
+                <div className="relative w-full max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Shipping</h1>
                     <h1 className="text-[22px] pt-4 text-blue-900">Shipping Options</h1>
                     <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />

@@ -1,27 +1,8 @@
 "use client";
-import React,{ useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Assets() {
-  const assetRefs = useRef<HTMLDivElement[]>([]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.remove("translate-y-15", "opacity-0");
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    assetRefs.current.forEach((el) => el && observer.observe(el));
-
-    return () => {
-      assetRefs.current.forEach((el) => el && observer.unobserve(el));
-    };
-  }, []);
+  const assetRefs = useRef<HTMLLIElement[]>([]);
 
   const assets = [
     {
@@ -56,63 +37,69 @@ export default function Assets() {
     },
   ];
 
-  // const SingleAsset = ({ title, value, location, description }: any) => (
-  //   <div className="relative w-full py-6 flex flex-col h-full">
-  //     <div className="relative w-full p-6 md:min-w-80 rounded-2xl shadow-xl border border-white/80 bg-white group md:bg-white hover:bg-white backdrop-blur-xs hover:shadow-2xl hover:-translate-y-2 hover:scale-105 transition-all duration-300 flex-1 flex flex-col items-center">
-        
-  //       {/* Title */}
-  //       <h1 className="text-[26px] md:text-[28px] font-sans font-bold text-gray-900 tracking-wide drop-shadow-md">
-  //         {title}
-  //       </h1>
-        
-  //       {/* Value */}
-  //       <h2 className="text-[32px] md:text-[36px] font-bold text-red-600 mt-2 drop-shadow-lg">
-  //         {value}
-  //       </h2>
-        
-  //       {/* Location */}
-  //       <h3 className="text-[14px] md:text-[16px] text-gray-800/90 mt-1 font-semibold tracking-tight">
-  //         {location}
-  //       </h3>
-        
-  //       {/* Description */}
-  //       <p className="text-[16px] md:text-[18px] text-gray-900/95 group-hover:text-gray-200/95 font-sans font-medium mt-3 text-center leading-relaxed tracking-wide">
-  //         {description}
-  //       </p>
-  //     </div>
-  //   </div>
-  // );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Animate all children of the li
+            const children = Array.from(entry.target.children) as HTMLElement[];
+            children.forEach((child, i) => {
+              child.classList.replace("translate-y-8","translate-y-0");
+              child.classList.replace("opacity-0","opacity-100");
+            });
+            observer.unobserve(entry.target); // stop observing once animated
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
 
+    assetRefs.current.forEach((el) => el && observer.observe(el));
+
+    return () => {
+      assetRefs.current.forEach((el) => el && observer.unobserve(el));
+    };
+  }, []);
 
   return (
     <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto flex flex-row items-stretch justify-center bg-gray-100">
       <div className="relative w-full md:w-[65%] h-auto flex flex-col items-center justify-center">
-      <h1 className="relative w-full md:text-left text-center text-gray-950/95 font-sans mt-10 p-2 underline decoration-red-600 text-[34px] font-bold">
-        Assets
-      </h1>
-      <h2 className="relative w-full md:text-left text-center text-blue-950/85 text-2xl font-medium font-sans mb-4">
-        Mining blocks and key mineral resources
-      </h2>
-      
-      <ul className="w-full flex flex-col items-center list-disc">
-        {assets.map((element, index) => (
-          <li
-            key={index}
-            className="relative mt-4 w-full h-auto flex flex-col items-center justify-center md:items-start border-b pb-4 border-gray-900/85 group"
-          >
-            <h1 className="text-[28px] text-red-700/95 font-sans font-bold group-hover:scale-105 delay-0 origin-bottom transition-all duration-200">{element.title}</h1>
-            <h4 className="font-semibold font-sans text-[28px] text-black/95 group-hover:scale-105 delay-150 origin-bottom transition-all duration-200">{element.value}</h4>
-            <h2 className="text-[14px] text-gray-800/85 group-hover:scale-105 delay-100 origin-bottom transition-all duration-250">{element.location}</h2>
-            <h2 className="font-mono text-[18px] px-4 md:px-0 text-center mt-2 group-hover:scale-105 delay-350 origin-bottom transition-all duration-200">
-              {element.description}
-            </h2>
-          </li>
-        ))}
-      </ul>
+        <h1 className="relative w-full md:text-left text-center text-gray-950/95 font-sans mt-10 p-2 underline decoration-red-600 text-[34px] font-bold">
+          Assets
+        </h1>
+        <h2 className="relative w-full md:text-left text-center text-blue-950/85 text-2xl font-medium font-sans mb-4">
+          Mining blocks and key mineral resources
+        </h2>
+
+        <ul className="w-full list-disc ml-5">
+          {assets.map((element, index) => (
+            <li
+              key={index}
+              ref={(el) => {
+                if (el) {
+                  assetRefs.current[index] = el; // assign to ref
+                }
+              }}
+
+              className="relative mt-4 w-full h-auto border-b pb-4 border-gray-900/85 flex flex-col items-start group"
+            >
+              <h1 className="text-[28px] text-red-700/95 font-sans font-bold group-hover:scale-105 origin-bottom opacity-0 translate-y-8 transition-all delay-0 duration-400">
+                {element.title}
+              </h1>
+              <h4 className="font-semibold font-sans text-[28px] text-black/95 group-hover:scale-105 origin-bottom opacity-0 translate-y-8 transition-all delay-50 duration-400">
+                {element.value}
+              </h4>
+              <h2 className="text-[14px] text-gray-800/85 group-hover:scale-105 origin-bottom opacity-0 translate-y-8 transition-all delay-150 duration-400">{element.location}</h2>
+              <h2 className="font-mono text-black/95 text-[18px] mt-2 group-hover:scale-105 origin-bottom opacity-0 translate-y-8 transition-all delay-200 duration-400">
+                {element.description}
+              </h2>
+            </li>
+          ))}
+        </ul>
       </div>
+
       <div className="relative hidden w-full md:w-[50%] bg-[url('/assetsimg2.jpg')] bg-cover bg-center h-full min-h-100"></div>
-
-
     </div>
-  )
+  );
 }
