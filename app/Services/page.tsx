@@ -37,9 +37,9 @@ const services = [
 
 
   return (
-    <div className="bodyelement relative w-full h-auto">
+    <div className="bodyelement relative w-full h-auto bg-white">
       {/* Hero Section */}
-      <div className="relative w-full h-160 flex items-center justify-center bg-[url('/servicesimg1.jpg')] bg-cover bg-center">
+      <div className="relative w-full md:h-160 h-120 flex items-center justify-center bg-[url('/servicesimg1.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 z-1 backdrop-blur-[2px]" />
         <div className="onstartanimation relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start z-2">
           <div className="onstartanimation delay-50 w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white shadow-md shadow-black/40">
