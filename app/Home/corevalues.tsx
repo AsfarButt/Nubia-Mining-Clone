@@ -77,3 +77,26 @@ return (
 );
 
 }
+
+
+
+
+
+
+
+
+
+
+
+//     datatype  Function_Name ( arguments ){
+
+//       function body
+
+//     }
+
+// e.g: 
+//        int Function1(int a, int b){
+
+//       int sum = a + b;
+//       return sum;
+//     }

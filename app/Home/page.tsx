@@ -88,7 +88,7 @@ export default function Page(){
                     <img src="/visionimg1.avif" alt="Image 1" className="relative w-70 h-70 lg:h-80 lg:w-80 transition-all duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
                 </div>
                 <div className="relative w-fit px-4 md:pr-10">
-                    <p className="text-[18px] md:text-[20px] font-sans text-center line-clamp-5 md:text-left">Our vision is to be a globally trusted leader in the responsible exploration, development, and trade of precious metals. We are committed to upholding the highest standards of integrity and transparency in all our operations. By leveraging cutting-edge technology and innovative methodologies, we aim to optimize resource development while minimizing environmental impact, ensuring our growth benefits the communities and regions where we operate.</p>
+                    <div className="text-[18px] md:text-[20px] font-sans text-center text-black/90 line-clamp-5 md:text-left">Our Vision is to be a <span className="text-gray-950">Globally Trusted Leader</span> in the responsible exploration, development, and trade of precious minerals. We are committed to upholding the highest standards of integrity and transparency in all our operations. By leveraging cutting-edge technology and innovative methodologies, we aim to optimize resource development while minimizing environmental impact, ensuring our growth benefits the communities and regions where we operate.</div>
                 </div>
             </div>
             <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
