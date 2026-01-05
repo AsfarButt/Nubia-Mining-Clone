@@ -1,94 +1,57 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 export default function CoreValues() {
-  const element1 = useRef<HTMLDivElement | null>(null);
-  const element2 = useRef<HTMLDivElement | null>(null);
-  const element3 = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    if (!element1.current || !element2.current || !element3.current) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.remove("translate-y-10", "opacity-0");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    observer.observe(element1.current);
-    observer.observe(element2.current);
-    observer.observe(element3.current);
-
-    return () => observer.disconnect();
-  }, []);
+  const values = [
+    {
+      title: "Responsible Development & Innovation",
+      desc: "We pursue advanced exploration and mining using cutting-edge, low-impact technologies aligned with JORC principles.",
+      img: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231f2937'><path d='M9 21h6v-1H9v1zm3-20C7.925 1 5 3.925 5 7c0 2.386 1.21 4.474 3.032 5.66L8 17h8l-.032-4.34C17.79 11.474 19 9.386 19 7c0-3.075-2.925-6-7-6z'/></svg>",
+    },
+    {
+      title: "Sustainability & Ethical Sourcing",
+      desc: "We uphold ESG-driven practices and global standards for responsible trade and positive community impact.",
+      img: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231f2937'><path d='M12 2C8 6 4 8 4 13c0 4.418 3.582 8 8 8s8-3.582 8-8c0-5-4-7-8-11z'/></svg>",
+    },
+    {
+      title: "Transparency & Traceability",
+      desc: "We ensure full visibility and accountability across the value chain through transparent governance.",
+      img: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231f2937'><path d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 16l-4-4 1.41-1.41L11 13.17l5.59-5.59L18 9l-7 8z'/></svg>",
+    },
+  ];
 
   return (
-    <div className="relative w-full py-16 flex flex-col items-center bg-white/95">
-      <h1 className="w-full mb-6 text-[36px] font-bold text-center font-libre text-black underline decoration-red-600/70 underline-offset-4">
-        Core Values
-      </h1>
+    <section className="w-full bg-white py-16">
+      <div className="mx-auto max-w-7xl px-5">
+        <h1 className="mb-10 text-center text-4xl font-bold text-slate-900 md:text-left">
+          Core Values
+        </h1>
 
-      <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
-        {/* Card 1 */}
-        <div
-          ref={element1}
-          className="group flex-1 m-4 p-6 rounded-xl border border-black/10
-                     bg-white transition-all duration-700 ease-out
-                     translate-y-10 opacity-0
-                     shadow-sm hover:shadow-lg hover:-translate-y-1"
-        >
-          <h2 className="text-center text-[23px] font-semibold text-yellow-800/90 tracking-wide">
-            Responsible Development & Innovation
-          </h2>
-          <p className="mt-4 text-[16.5px] text-center leading-relaxed text-blue-950/80">
-            We pursue advanced exploration and mining using cutting-edge,
-            low-impact technologies aligned with JORC principles, ensuring
-            efficiency, safety, and environmental responsibility.
-          </p>
-        </div>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+          {values.map((item, i) => (
+            <div
+              key={i}
+              className="min-h-[340px] rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div className="mb-6 flex justify-center">
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="h-20 w-20"
+                />
+              </div>
 
-        {/* Card 2 */}
-        <div
-          ref={element2}
-          className="group flex-1 m-4 p-6 rounded-xl border border-black/10
-                     bg-white transition-all duration-700 delay-150 ease-out
-                     translate-y-10 opacity-0
-                     shadow-sm hover:shadow-lg hover:-translate-y-1"
-        >
-          <h2 className="text-center text-[23px] font-semibold text-yellow-800/90 tracking-wide">
-            Sustainability & Ethical Sourcing
-          </h2>
-          <p className="mt-4 text-[16.5px] text-center leading-relaxed text-blue-950/80">
-            We uphold ESG-driven practices and global standards for responsible
-            trade, ensuring compliance, ethical sourcing, and positive community
-            impact across every operation.
-          </p>
-        </div>
+              <h2 className="text-center text-lg font-bold text-slate-900">
+                {item.title}
+              </h2>
 
-        {/* Card 3 */}
-        <div
-          ref={element3}
-          className="group flex-1 m-4 p-6 rounded-xl border border-black/10
-                     bg-white transition-all duration-700 delay-300 ease-out
-                     translate-y-10 opacity-0
-                     shadow-sm hover:shadow-lg hover:-translate-y-1"
-        >
-          <h2 className="text-center text-[23px] font-semibold text-yellow-800/90 tracking-wide">
-            Transparency & Traceability
-          </h2>
-          <p className="mt-4 text-[16.5px] text-center leading-relaxed text-blue-950/80">
-            We ensure full visibility, integrity, and accountability across the
-            value chain through digital monitoring and transparent supply-chain
-            governance.
-          </p>
+              <p className="mt-3 text-center text-sm leading-relaxed text-slate-600">
+                {item.desc}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -25,54 +25,67 @@ export default function Page(){
             </video>
         </div>
 
-    {/* Vision & Mission Section with Image */}
-    <div className="relative w-full py-20 px-4 md:px-8 bg-white text-black flex flex-col items-center">
+        <div className="relative w-full py-8 md:pt-8 h-auto px-2 bg-white text-black md:px-4 flex flex-col justify-center items-center">
 
-    {/* Section Title */}
-    <h1 className="text-center text-[32px] md:text-[38px] font-bold font-libre underline underline-offset-4 decoration-red-600/85 mb-16">
-        Vision & Mission
-    </h1>
+        {/* VISION ROW */}
+        <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
+            
+            <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-start">
+            <img
+                src="/vision.png"
+                alt="Vision"
+                className="relative w-full h-70 opacity-90 transition-all duration-200 mx-8 hover:-translate-y-2"
+            />
+            </div>
 
-    <div className="relative h-auto lg:h-120 bg-black/2 p-2 md:p-8 w-full max-w-6xl flex flex-col lg:flex-row items-start gap-12">
+            <div className="relative w-fit px-4 md:pr-10">
+            <div className="rounded-xl bg-gray-100/70 p-6 shadow-sm">
+                <h2 className="mb-3 text-[28px] font-bold">
+                Vision
+                </h2>
 
-        {/* Left Content */}
-        <div className="flex-1 flex flex-col gap-16">
-
-        {/* Vision */}
-        <div>
-            <h2 className="text-[24px] md:text-[26px] font-semibold text-yellow-800/90 mb-4">
-            VISION
-            </h2>
-            <p className="text-[17px] md:text-[18px] text-black/85 leading-relaxed">
-            To be a globally trusted leader in the responsible exploration, development, and trade of precious and strategic metals — driving transparency, sustainability, and innovation across the global resources sector.
-            </p>
+                <p className="text-[18px] md:text-[20px] font-sans text-black/90 md:line-clamp-8 lg:line-clamp-5">
+                To be a globally trusted leader in the responsible exploration,
+                development, and trade of precious and strategic metals — driving
+                transparency, sustainability, and innovation across the global
+                resources sector.
+                </p>
+            </div>
+            </div>
         </div>
 
-        {/* Mission */}
-        <div>
-            <h2 className="text-[24px] md:text-[26px] font-semibold text-yellow-800/90 mb-4">
-            MISSION
-            </h2>
-            <p className="text-[17px] md:text-[18px] text-black/85 leading-relaxed">
-            Delivering Excellence Through Innovation and Integrity.  
-            To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards of integrity, transparency, and environmental stewardship.  
-            We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communities, and stakeholders worldwide.
-            </p>
-        </div>
+        {/* MISSION ROW */}
+        <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
 
-        </div>
+            <div className="relative w-fit px-4 md:pr-10">
+            <div className="rounded-xl bg-gray-100/70 p-6 shadow-sm">
+                <h2 className="mb-3 text-[28px] font-bold">
+                Mission
+                </h2>
 
-        {/* Right Image */}
-        <div className="relative h-full hidden lg:flex flex-none w-[32%] items-center justify-center">
-        <img
-            src="/missionandvision.jpg"
-            alt="Mission & Vision"
-            className="w-full h-full opacity-95 transition-all duration-300"
-        />
-        </div>
+                <p className="text-[18px] md:text-[20px] font-sans text-black/90 md:line-clamp-8 lg:line-clamp-5">
+                <span className="font-semibold">
+                    Delivering Excellence Through Innovation and Integrity
+                </span>
+                <br />
+                To responsibly explore, develop, and trade precious and strategic
+                metals by upholding the highest standards of integrity, transparency,
+                and environmental stewardship. We aim to build lasting partnerships,
+                strengthen global supply chains, and create sustainable value for
+                industries, communities, and stakeholders worldwide.
+                </p>
+            </div>
+            </div>
 
-    </div>
-    </div>
+            <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-end">
+            <img
+                src="/mission.png"
+                alt="Mission"
+                className="relative w-full h-70 opacity-90 transition-all duration-200 mx-8 hover:-translate-y-2"
+            />
+            </div>
+        </div>
+        </div>
 
         
         {/* Core Values */}
