@@ -53,11 +53,23 @@ body {
 
 /* Animations */
 .onstartanimation {
-  animation: onstartanimation .8s ease-out;
+  animation: onstartanimation 1.2s ease-out forwards;
+  opacity: 0;
+  animation-delay: 2s;
+}
+.onstartanimation2 {
+  animation: onstartanimation2 1.3s ease-out forwards;
+  opacity: 0;
+  animation-delay: 2.1s;
 }
 
 @keyframes onstartanimation {
   from { transform: translateY(100px); opacity: 0 }
+  to { transform: translateY(0px); opacity: 1 }
+}
+
+@keyframes onstartanimation2 {
+  from { transform: translateY(120px); opacity: 0 }
   to { transform: translateY(0px); opacity: 1 }
 }
 
@@ -118,3 +130,22 @@ body::-webkit-scrollbar-thumb {
   from{transform: translateX(-80px); opacity: 0}
   to{transform: translateX(0px); opacity: 100}
 }
+
+.onstarthaderline1 { opacity: 0; animation: onstarthaderline 0.4s linear forwards; animation-delay: 0s; }
+.onstarthaderline2 { opacity: 0; animation: onstarthaderline 0.4s linear forwards; animation-delay: 0.3s; }
+.onstarthaderline3 { opacity: 0; animation: onstarthaderline 0.4s linear forwards; animation-delay: 0.6s; }
+.onstarthaderline4 { opacity: 0; animation: onstarthaderline 0.4s linear forwards; animation-delay: 0.9s; }
+.onstarthaderline5 { opacity: 0; animation: onstarthaderline 0.4s linear forwards; animation-delay: 1.2s; }
+
+@keyframes onstarthaderline {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Your header animation delays */
+.onstartheaderanimation1 { animation-delay: 0.8s; }
+.onstartheaderanimation2 { animation-delay: 1.0s; }
+.onstartheaderanimation3 { animation-delay: 1.2s; }
+.onstartheaderanimation4 { animation-delay: 1.5s; }
+.onstartheaderanimation5 { animation-delay: 1.75s; }
+

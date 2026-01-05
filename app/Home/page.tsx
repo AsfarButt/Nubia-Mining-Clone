@@ -12,9 +12,9 @@ export default function Page(){
         <div className="absolute w-full h-160 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
         <div className="onstartanimation relative p-4 min-h-60 py-10 z-2 w-[90%] lg:max-w-140 xl:max-w-160 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
-            <h1 className="onstartanimation delay-200 font-sans font-bold px-10 text-blue-900/95 text-[28px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
-            <div className="onstartanimation delay-300 relative my-3 w-[90%] h-0.5 bg-red-600/80" />
-            <p className="onstartanimation delay-500 text-center px-6 text-[15px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
+            <h1 className="onstartanimation font-sans font-bold px-10 text-blue-900/95 text-[28px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
+            <div className="onstartanimation2 relative my-3 w-[90%] h-0.5 bg-red-600/80" />
+            <p className="onstartanimation2 text-center px-6 text-[15px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
             {/* <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a> */}
         </div>
         </div>
