@@ -1,15 +1,12 @@
 @import "tailwindcss";
 
+
+/* CSS variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: Arial, Helvetica, sans-serif; /* fallback font */
+  --font-mono: monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,27 +16,41 @@
   }
 }
 
+.font-playfair {
+  font-family: var(--font-playfair-display), serif;
+}
+
+.font-opensans {
+  font-family: var(--font-opensans), sans-serif;
+}
+
+.font-libre {
+  font-family: var(--font-libre), sans-serif;
+}
+/* Body styling */
 body {
+  width: 100vw;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
-.onstartanimation{
+
+/* Animations */
+.onstartanimation {
   animation: onstartanimation .8s ease-out;
 }
-@keyframes onstartanimation{
-  from{transform: translateY(100px); opacity: 0}
-  to{transform: translateY(0px); opacity: 100}
+
+@keyframes onstartanimation {
+  from { transform: translateY(100px); opacity: 0 }
+  to { transform: translateY(0px); opacity: 1 }
 }
 
-.parentelement:has(.childelement:hover)::before{
- background-color:rgba(255, 255, 255, 0.2);
-}
+/* Hover effect with :has() */
+/* .parentelement:has(.childelement:hover)::before {
+  background-color: rgba(41, 41, 41, 0.05);
+} */
 
-body{
-  width: 100vw;
-}
-
+/* Scrollbar */
 body::-webkit-scrollbar {
   width: 3px;
 }

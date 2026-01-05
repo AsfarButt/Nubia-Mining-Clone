@@ -1,4 +1,4 @@
-"use client"; // THIS MAKES THE PAGE CSR
+"use client"; 
 
 import { useState, useRef } from "react";
 
@@ -17,8 +17,20 @@ export default function Page() {
     setTimeout(() => {
       setButtonColor("bg-blue-950/85 hover:bg-blue-950/95");
       setShownText("Send Email");
-      window.location.reload();
+      // window.location.reload();
     }, 2000);
+
+    // const response = await fetch("/api/sendemail", { 
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify({
+    //     senderEmail: email, 
+    //     name: name,
+    //     body: message,
+    //   }),
+    // }).then(res => res.json())
+    //   .then(result => { console.log(result); return result; });
+
   };
 
   return (

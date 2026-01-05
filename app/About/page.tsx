@@ -5,7 +5,7 @@ export default function Page(){
 
     return(<div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center bg-white">
       {/* Hero Section */}
-        <div className="relative w-full md:h-160 h-120 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
+        <div className="relative w-full md:h-160 h-140 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
             <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
                 <div className="onstartanimation w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white">
                     <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About</h1>
@@ -17,13 +17,13 @@ export default function Page(){
         </div>
 
         <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
-            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-medium">Mission</h1>
+            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-libre font-medium">Mission</h1>
             <h2 className="font-semibold mt-4 text-gray-800/85">Delivering Excellence Through Innovation and Intergrity</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards  of integrity, transparency, and envirnomental stewardship. We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communnities, and stakeholders worldwide.</p>
         </div>
 
         <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
-            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-medium">Locations</h1>
+            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-libre font-medium">Locations</h1>
             <h2 className="font-semibold mt-4 text-gray-800/85">Nubia Mining operates from two offices within Pakistan, strategically located to serve our regional and national operations efficiently.</h2>
             <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">We have two locations in Pakistan: 
             <a className="cursor-pointer text-[18px] text-blue-900/85 hover:underline" href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9" target="_blank"> House No. 17, Street No. 22, Sector F-6/2, Islamabad, Capital Territory, Pakistan</a> and another at 

@@ -65,7 +65,7 @@ export default function Assets() {
   return (
     <div className="relative w-full px-4 md:px-8 lg:px-16 h-auto flex flex-row items-stretch justify-center bg-gray-100">
       <div className="relative w-full md:w-[65%] h-auto flex flex-col items-center justify-center">
-        <h1 className="relative w-full md:text-left text-center text-gray-950/95 font-sans mt-10 p-2 underline decoration-red-600 text-[34px] font-bold">
+        <h1 className="relative w-full md:text-left text-center text-gray-950/95 font-sans mt-10 p-2 underline decoration-red-600 text-[34px] font-libre font-medium">
           Assets
         </h1>
         <h2 className="relative w-full md:text-left text-center text-blue-950/85 text-2xl font-medium font-sans mb-4">
