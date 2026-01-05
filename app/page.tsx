@@ -1,6 +1,6 @@
-import Scrollar from "./Home/scrollar";
-import CoreValues from "./Home/corevalues";
-import News from "./Home/news";
+import Scrollar from "./scrollar";
+import CoreValues from "./corevalues";
+import News from "./news";
 
 
 export default function Page(){
@@ -8,14 +8,14 @@ export default function Page(){
     return(<div className="relative w-full h-auto">
         
         {/* First SEction  */}
-        <div className="bodyelement w-full h-120 bg-[url(/homepagebg1.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
-        <div className="absolute w-full h-120 z-1 bg-linear-to-t from-blue-800/60 to-blue-950" />
+        <div className="bodyelement w-full h-140 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
+        <div className="absolute w-full h-140 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
         <div className="onstartanimation relative p-4 py-10 z-2 w-[90%] max-w-130 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
             <h1 className="onstartanimation delay-200 font-sans font-bold text-blue-900/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
             <div className="onstartanimation delay-300 relative my-2 w-[90%] h-0.5 bg-red-600/80" />
             <p className="onstartanimation delay-500 text-center text-[14px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
-            <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a>
+            {/* <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a> */}
         </div>
         </div>
         {/* Image Section */}
@@ -26,7 +26,7 @@ export default function Page(){
         </div>
 
         {/* Second Section */}
-        <div className="relative w-full flex flex-col md:flex-row flex-wrap items-stretch justify-center bg-white">
+        {/* <div className="relative w-full flex flex-col md:flex-row flex-wrap items-stretch justify-center bg-white">
             <div className="relative w-full md:w-[50%] flex-1 box-border">
                     <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">
                         Nubia Mining at a Glance
@@ -68,9 +68,9 @@ export default function Page(){
                             </h2>
                         </div>
                 </div>
-            </div>
+            </div> 
 
-            {/* Scrollar */}
+             Scrollar
             <div className="relative md:border-b border-gray-800/90 px-4 md:px-0 py-14 sm:py-10 md:py-4 w-full md:w-[50%] flex-1 box-border flex flex-col items-center justify-center">
                 <Scrollar />
                 <div className="relative mb-2 w-[90%] md:w-[85%] h-0.5 bg-gray-600/60" />
@@ -78,33 +78,65 @@ export default function Page(){
                 <a href="/About" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
             </div>
             
+        </div>  */}
+
+    {/* Vision & Mission Section with Image */}
+    <div className="relative w-full py-20 px-4 md:px-8 bg-white text-black flex flex-col items-center">
+
+    {/* Section Title */}
+    <h1 className="text-center text-[32px] md:text-[38px] font-bold font-libre underline underline-offset-4 decoration-red-600/85 mb-16">
+        Vision & Mission
+    </h1>
+
+    <div className="relative h-auto lg:h-120 bg-black/2 p-2 md:p-8 w-full max-w-6xl flex flex-col lg:flex-row items-start gap-12">
+
+        {/* Left Content */}
+        <div className="flex-1 flex flex-col gap-16">
+
+        {/* Vision */}
+        <div>
+            <h2 className="text-[24px] md:text-[26px] font-semibold text-yellow-800/90 mb-4">
+            VISION
+            </h2>
+            <p className="text-[17px] md:text-[18px] text-black/85 leading-relaxed">
+            To be a globally trusted leader in the responsible exploration, development, and trade of precious and strategic metals — driving transparency, sustainability, and innovation across the global resources sector.
+            </p>
         </div>
 
-        {/* Vision Section */}
-        <div className="relative w-full py-8 md:pt-8 h-auto px-2 bg-white to-gray-950/95 text-black md:px-4 flex flex-col justify-center items-center">
-            <h1 className="text-center text-[32px] md:text-[36px] underline decoration-red-600/85 font-libre font-bold">Vision</h1>
-            <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
-                <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-start">
-                    <img src="/visionimg1.avif" alt="Image 1" className="relative w-80 h-70 lg:h-80 lg:w-80 transition-all opacity-90 duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
-                </div>
-                <div className="relative w-fit px-4 md:pr-10">
-                    <div className="text-[18px] md:text-[20px] font-sans text-center text-black/90 md:line-clamp-8 lg:line-clamp-5 md:text-left">Our Vision is to be a <span className="text-gray-950">Globally Trusted Leader</span> in the responsible exploration, development, and trade of precious minerals. We are committed to upholding the highest standards of integrity and transparency in all our operations.<span className="hidden md:inline">By leveraging cutting-edge technology and innovative methodologies, we aim to optimize resource development while minimizing environmental impact, ensuring our growth benefits the communities and regions where we operate.</span></div>
-                </div>
-            </div>
-            <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
-                <div className="relative w-fit px-4 md:pr-10">
-                    <p className="text-[18px] md:text-[20px] font-sans text-center text-black/90 md:line-clamp-8 lg:line-clamp-5 md:text-left">We Strive to drive Sustainability Across the Global Resources Sector by setting benchmarks in responsible mining and trade. Our mission goes beyond production. We focus on creating long-term value for stakeholders<span className="hidden md:inline"> , fostering partnerships, and continuously innovating to meet global market demands. Through dedication to transparency, accountability, and excellence, we aim to shape the future of the precious metals industry while inspiring trust worldwide.</span></p>
-                </div>
-                <div className="relative h-full flex-none min-w-[30%] hidden md:flex items-center justify-end">
-                    <img src="/visionimg2.avif" alt="Image 2" className="relative w-80 h-70 lg:h-80 lg:w-80 transition-all opacity-90 duration-200 mx-8 shadow-lg hover:shadow-black/60 hover:-translate-y-2" />
-                </div>
-            </div>
+        {/* Mission */}
+        <div>
+            <h2 className="text-[24px] md:text-[26px] font-semibold text-yellow-800/90 mb-4">
+            MISSION
+            </h2>
+            <p className="text-[17px] md:text-[18px] text-black/85 leading-relaxed">
+            Delivering Excellence Through Innovation and Integrity.  
+            To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards of integrity, transparency, and environmental stewardship.  
+            We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communities, and stakeholders worldwide.
+            </p>
         </div>
+
+        </div>
+
+        {/* Right Image */}
+        <div className="relative h-full hidden lg:flex flex-none w-[32%] items-center justify-center">
+        <img
+            src="/missionandvision.jpg"
+            alt="Mission & Vision"
+            className="w-full h-full opacity-95 transition-all duration-300"
+        />
+        </div>
+
+    </div>
+    </div>
+
+        
+        {/* Core Values */}
+        <CoreValues />
 
         {/* Third Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-center">
-            <div className="parentelement relative w-full h-140 bg-[url('/sectionleftimage.jpg')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
-                <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
+            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionleftimage.jpg')] before:bg-center before:opacity-80 before:brightness-120 before:bg-cover flex items-center justify-center">
+                <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/50 p-4 hover:bg-white/75 transition-all duration-300 flex flex-col items-center justify-center">
                     <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
                         Tailored solutions at every stage of mining operations, designed to maximize efficiency, safety, and sustainability.
@@ -114,8 +146,8 @@ export default function Page(){
                     </a>
                 </div>
             </div>
-            <div className="parentelement relative w-full h-140 bg-[url('/sectionrightimage.avif')] bg-center bg-cover flex before:absolute before:inset-0 items-center justify-center">
-                <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/85 p-4 hover:bg-white/95 transition-all duration-300 flex flex-col items-center justify-center">
+            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionrightimage.avif')] before:bg-center before:opacity-80 before:brightness-120 before:bg-cover flex items-center justify-center">
+                <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/50 p-4 hover:bg-white/75 transition-all duration-300 flex flex-col items-center justify-center">
                     <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
                         High-quality minerals and raw materials, responsibly sourced from our mines and delivered to meet modern industrial demands.
@@ -127,9 +159,7 @@ export default function Page(){
             </div>
         </div>
 
-        
-        {/* Core Values */}
-        <CoreValues />
+
 
         {/* News Section */}
         {/* <News /> */}
