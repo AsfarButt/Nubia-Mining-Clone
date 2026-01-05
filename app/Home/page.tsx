@@ -10,7 +10,7 @@ export default function Page(){
         {/* First SEction  */}
         <div className="bodyelement w-full h-140 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
         <div className="absolute w-full h-140 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
-        <div className="onstartanimation relative p-4 py-10 z-2 w-[90%] max-w-130 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
+        <div className="onstartanimation relative p-4 py-10 z-2 w-[90%] max-w-120 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
             <h1 className="onstartanimation delay-200 font-sans font-bold text-blue-900/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
             <div className="onstartanimation delay-300 relative my-2 w-[90%] h-0.5 bg-red-600/80" />
