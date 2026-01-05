@@ -88,7 +88,7 @@ export default function Page(){
         Vision & Mission
     </h1>
 
-    <div className="relative h-auto lg:h-120 bg-black/2 md:p-8 w-full max-w-6xl flex flex-col lg:flex-row items-start gap-12">
+    <div className="relative h-auto lg:h-120 bg-black/2 p-2 md:p-8 w-full max-w-6xl flex flex-col lg:flex-row items-start gap-12">
 
         {/* Left Content */}
         <div className="flex-1 flex flex-col gap-16">

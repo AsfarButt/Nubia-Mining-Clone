@@ -13,24 +13,6 @@ export default function Page() {
     e.preventDefault();
     setShownText("Email Sent");
     setButtonColor("bg-green-500/85"); // instantly updates
-
-    setTimeout(() => {
-      setButtonColor("bg-blue-950/85 hover:bg-blue-950/95");
-      setShownText("Send Email");
-      // window.location.reload();
-    }, 2000);
-
-    // const response = await fetch("/api/sendemail", { 
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify({
-    //     senderEmail: email, 
-    //     name: name,
-    //     body: message,
-    //   }),
-    // }).then(res => res.json())
-    //   .then(result => { console.log(result); return result; });
-
   };
 
   return (
