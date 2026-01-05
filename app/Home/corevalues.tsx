@@ -29,7 +29,7 @@ export default function CoreValues() {
   }, []);
 
   return (
-    <div className="relative w-full py-16 flex flex-col items-center bg-white">
+    <div className="relative w-full py-16 flex flex-col items-center bg-white/95">
       <h1 className="w-full mb-6 text-[36px] font-bold text-center font-libre text-black underline decoration-red-600/70 underline-offset-4">
         Core Values
       </h1>

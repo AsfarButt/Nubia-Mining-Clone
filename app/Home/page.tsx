@@ -8,19 +8,19 @@ export default function Page(){
     return(<div className="relative w-full h-auto">
         
         {/* First SEction  */}
-        <div className="bodyelement w-full h-140 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
-        <div className="absolute w-full h-140 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
-        <div className="onstartanimation relative p-4 py-10 z-2 w-[90%] max-w-120 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
+        <div className="bodyelement w-full h-160 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
+        <div className="absolute w-full h-160 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
+        <div className="onstartanimation relative p-4 min-h-60 py-10 z-2 w-[90%] lg:max-w-140 xl:max-w-160 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
-            <h1 className="onstartanimation delay-200 font-sans font-bold text-blue-900/95 text-[24px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
-            <div className="onstartanimation delay-300 relative my-2 w-[90%] h-0.5 bg-red-600/80" />
-            <p className="onstartanimation delay-500 text-center text-[14px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
+            <h1 className="onstartanimation delay-200 font-sans font-bold px-10 text-blue-900/95 text-[28px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
+            <div className="onstartanimation delay-300 relative my-3 w-[90%] h-0.5 bg-red-600/80" />
+            <p className="onstartanimation delay-500 text-center px-6 text-[15px] font-sans text-black/85">From exploration and mining to trading and marketing, we provide critical sourcing solutions for the ferroalloy, metal, mineral, mining and energy industries that power modern life.</p>
             {/* <a href="/About" className="onstartanimation px-4 py-2 mt-4 text-[20px] font-bold text-white rounded-lg bg-red-600/85">Learn More About Nubia Mining</a> */}
         </div>
         </div>
         {/* Image Section */}
-        <div className="relative w-full h-auto">
-            <video src="homepagevideo.webm" muted loop autoPlay playsInline className="w-full h-auto">
+        <div className="relative w-full h-auto min-h-40 md:max-h-80 lg:max-h-100">
+            <video src="nubiavideo.webm" muted loop autoPlay playsInline className="w-full h-auto">
             Your browser does not support the video tag.
             </video>
         </div>
