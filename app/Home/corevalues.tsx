@@ -27,11 +27,14 @@ const services = [
   return (
     <section className="w-full bg-white py-10">
       <div className="mx-auto max-w-7xl px-4">
+      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold">
+        Core Values
+      </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {services.map((s, i) => (
             <div
               key={i}
-              className="group relative h-[320px] overflow-hidden rounded-2xl bg-slate-200 shadow-sm"
+              className="group relative h-[320px] md:h-[420px] overflow-hidden rounded-2xl bg-slate-200 shadow-sm"
             >
               {/* Background image */}
               <img

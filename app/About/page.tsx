@@ -58,7 +58,7 @@ export default function Page(){
                 <h1 className="relative w-full py-6 text-black/95 text-center font-sans text-3xl font-semibold">Our Team</h1>
                 <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
                     <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Furqan Zahoor</h1>
-                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Program Manager</h2>
+                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Director</h2>
                 </li>
                 <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
                     <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Saboor Karamat</h1>
