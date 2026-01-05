@@ -5,10 +5,10 @@ import News from "./news";
 
 export default function Page(){
 
-    return(<div className="relative w-full h-auto">
+    return(<div className="relative w-full h-auto bg-white">
         
         {/* First SEction  */}
-        <div className="bodyelement w-full h-160 xl:h-175 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
+        <div className="relative bodyelement w-full h-160 xl:h-175 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden z-2">
         <div className="absolute w-full h-160 xl:h-175 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
         <div className="onstartanimation relative p-4 min-h-60 py-10 z-2 w-[90%] lg:max-w-140 xl:max-w-160 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
@@ -19,7 +19,7 @@ export default function Page(){
         </div>
         </div>
         {/* Image Section */}
-        <div className="relative w-full h-auto min-h-40 md:max-h-80 lg:max-h-100">
+        <div className="relative w-full -translate-y-10 h-auto min-h-40 md:max-h-80 lg:max-h-100 z-0">
             <video src="nubiavideo.webm" muted loop autoPlay playsInline className="w-full h-auto">
             Your browser does not support the video tag.
             </video>
