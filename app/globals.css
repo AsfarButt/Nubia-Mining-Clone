@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("/fonts/PlayfairDisplay.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Import Playfair Display Italic */
+@font-face {
+  font-family: "PlayfairDisplayItalic";
+  src: url("/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
 /* CSS variables */
 :root {
@@ -62,4 +78,34 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(31, 31, 31);
   border-radius: 1px; 
+}
+/* Base classes with initial hidden state */
+.onstartheaderanimation1,
+.onstartheaderanimation2,
+.onstartheaderanimation3,
+.onstartheaderanimation4,
+.onstartheaderanimation5 {
+  opacity: 0;                 /* initially hidden */
+  transform: translateY(-120px); /* initially moved up */
+  animation: onstartheaderanimation 1s ease-out forwards; /* forwards keeps final state */
+}
+
+/* Individual delays */
+.onstartheaderanimation1 { animation-delay: 0.3s; }
+.onstartheaderanimation2 { animation-delay: 0.6s; }
+.onstartheaderanimation3 { animation-delay: 0.9s; }
+.onstartheaderanimation4 { animation-delay: 1.2s; }
+.onstartheaderanimation5 { animation-delay: 1.5s; }
+
+
+/* Keyframes */
+@keyframes onstartheaderanimation {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -25,61 +25,6 @@ export default function Page(){
             </video>
         </div>
 
-        {/* Second Section */}
-        {/* <div className="relative w-full flex flex-col md:flex-row flex-wrap items-stretch justify-center bg-white">
-            <div className="relative w-full md:w-[50%] flex-1 box-border">
-                    <h1 className="bg-red-600/75 p-2 py-4 lg:py-10 text-center font-bold text-white/85 text-[24px]">
-                        Nubia Mining at a Glance
-                    </h1>
-                    <div className="grid grid-cols-2 grid-rows-2 flex-1">
-                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
-                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center font-opensans text-gray-900/95">
-                                EMERGING MINING & TRADING HOUSE
-                            </h1>
-                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
-                                Building a diversified portfolio in Pakistan & GCC
-                            </h2>
-                        </div>
-
-                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
-                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center font-opensans text-gray-900/95">
-                                FOCUS ON CRITICAL MINERALS
-                            </h1>
-                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
-                                Copper, Antimony, Gold & Strategic Metals
-                            </h2>
-                        </div>
-
-                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
-                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center font-opensans text-gray-900/95">
-                                STRATEGIC ALLIANCES
-                            </h1>
-                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
-                                Working with leading Engineering & Logistics partners
-                            </h2>
-                        </div>
-
-                        <div className="border px-2 py-6 md:py-8 lg:py-10 md:px-4 lg:px-8 border-gray-600/80 flex flex-col items-center justify-start">
-                            <h1 className="text-[22px] md:text-[23px] lg:text-[24px] font-bold text-center font-opensans text-gray-900/95">
-                                PROJECTS IN PIPELINE
-                            </h1>
-                            <h2 className="text-[16px] md:text-[18px] text-center text-red-700/90 font-medium">
-                                Multiple concessions under evaluation & development
-                            </h2>
-                        </div>
-                </div>
-            </div> 
-
-             Scrollar
-            <div className="relative md:border-b border-gray-800/90 px-4 md:px-0 py-14 sm:py-10 md:py-4 w-full md:w-[50%] flex-1 box-border flex flex-col items-center justify-center">
-                <Scrollar />
-                <div className="relative mb-2 w-[90%] md:w-[85%] h-0.5 bg-gray-600/60" />
-                <h1 className="text-2xl font-semibold text-blue-950/90 font-sans">Offices Across the Country</h1>
-                <a href="/About" className="p-2 md:text-[18px] px-4 mt-4 rounded-lg bg-red-600/80 text-white/95 font-bold">Discover Our Locations</a>
-            </div>
-            
-        </div>  */}
-
     {/* Vision & Mission Section with Image */}
     <div className="relative w-full py-20 px-4 md:px-8 bg-white text-black flex flex-col items-center">
 
