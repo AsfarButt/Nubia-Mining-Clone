@@ -8,8 +8,8 @@ export default function Page(){
     return(<div className="relative w-full h-auto">
         
         {/* First SEction  */}
-        <div className="bodyelement w-full h-160 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
-        <div className="absolute w-full h-160 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
+        <div className="bodyelement w-full h-160 xl:h-170 bg-[url(/homepagebg2.jpg)] bg-cover bg-center flex items-center justify-center overflow-x-hidden overf">
+        <div className="absolute w-full h-160 xl:h-170 z-1 bg-linear-to-t from-blue-800/30 to-blue-950/60" />
         <div className="onstartanimation relative p-4 min-h-60 py-10 z-2 w-[90%] lg:max-w-140 xl:max-w-160 h-auto shadow-lg shadow-black/30 bg-white flex flex-col items-center justify-center">
             <h1 className="absolute top-2 left-4 text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining</h1>
             <h1 className="onstartanimation font-sans font-bold px-10 text-blue-900/95 text-[28px] text-center">Nubia Mining: Sourcing the Metals and Minerals that Move the World</h1>
