@@ -11,7 +11,7 @@ const cormorant = Vend_Sans({
 export default function Header({Selection}:{Selection: number}){
 
 
-    return(<div className="sticky top-0 z-5 w-full h-15 sm:h-16 bg-black flex items-center justify-between px-2 md:px-4 before:absolute before:inset-0 before:bg-blue-900/60 before:brightness-95">
+    return(<div className="sticky top-0 w-full h-15 sm:h-16 bg-black flex items-center justify-between px-2 md:px-4 before:absolute before:inset-0 before:bg-blue-900/60 before:brightness-95 z-10">
         <div className="relative w-auto h-full flex flex-row items-center justify-center gap-2 scale-80 sm:scale-100">
             {/* <div className="relative h-full w-13 scale-85 rotate-y-180 bg-white mask-[url(/pickaxe.png)] mask-cover mask-center" />
             <h1 className={`relative text-2xl text-white ${cormorant.className}`}>Nubia Mining</h1> */}
