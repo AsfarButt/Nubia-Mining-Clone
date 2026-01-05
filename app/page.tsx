@@ -1,6 +1,6 @@
-import Scrollar from "./scrollar";
-import CoreValues from "./corevalues";
-import News from "./news";
+import Scrollar from "./Home/scrollar";
+import CoreValues from "./Home/corevalues";
+import News from "./Home/news";
 
 
 export default function Page(){
