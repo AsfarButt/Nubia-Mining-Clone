@@ -40,7 +40,8 @@ export default function Header({Selection}:{Selection: number}){
             <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">About Nubia</li>
             <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Mission</li>
             <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Locations</li>
-            <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Our Team</li></>
+            {/* <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Our Team</li> */}
+            </>
             </div>
             </a>
             <div className="w-1 h-[65%] onstarthaderline2 bg-white/60" ></div>
