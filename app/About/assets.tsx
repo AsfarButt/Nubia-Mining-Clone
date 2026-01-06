@@ -12,56 +12,56 @@ type Asset = {
 };
 
 export default function Assets() {
-  const assets: Asset[] = useMemo(
-    () => [
-      {
-        title: "Platinum Block 1",
-        value: 135.16,
-        unit: "acres",
-        location: "KPK Province",
-        description: "Rich in Gold, PGM & other precious minerals",
-        badge: "Platinum",
-        image: "/about1.avif",
-      },
-      {
-        title: "Placer Gold Block",
-        value: 2.32,
-        unit: "acres",
-        location: "Hamzigond District, Kharmang",
-        description: "Rich in Gold & Silver",
-        badge: "Placer Gold",
-        image: "/about2.jpg",
-      },
-      {
-        title: "Placer Gold Block",
-        value: 5.98,
-        unit: "acres",
-        location: "Ghawn District, Ghanche",
-        description: "Rich in Gold, Copper & Silver",
-        badge: "Placer Gold",
-        image: "/about3.jpg",
-      },
-      {
-        title: "Platinum Block 2",
-        value: 41.8,
-        unit: "acres",
-        location: "KPK Province",
-        description: "Rich in Gold & PGM",
-        badge: "Platinum",
-        image: "/about4.avif",
-      },
-      {
-        title: "Platinum Block",
-        value: 499.33,
-        unit: "acres",
-        location: "KPK Province",
-        description: "Rich in Platinum, Gold & PGM",
-        badge: "Platinum",
-        image: "/about5.jpg",
-      },
-    ],
-    []
-  );
+const assets: Asset[] = useMemo(
+  () => [
+    {
+      title: "Platinum Block 1",
+      value: 135.16,
+      unit: "acres",
+      location: "KPK",
+      description: "Rich in Gold, PGM & other precious minerals",
+      badge: "Platinum",
+      image: "/about1.avif",
+    },
+    {
+      title: "Platinum Block 2",
+      value: 41.8,
+      unit: "acres",
+      location: "KPK",
+      description: "Rich in Gold & PGM",
+      badge: "Platinum",
+      image: "/about4.avif",
+    },
+    {
+      title: "Platinum Block",
+      value: 499.33,
+      unit: "acres",
+      location: "KPK",
+      description: "Rich in Platinum, Gold & PGM",
+      badge: "Platinum",
+      image: "/about5.jpg",
+    },
+    {
+      title: "Placer Gold Block",
+      value: 2.32,
+      unit: "acres",
+      location: "Gilgit-Baltistan",
+      description: "Rich in Gold & Silver",
+      badge: "Placer Gold",
+      image: "/about2.jpg",
+    },
+    {
+      title: "Placer Gold Block",
+      value: 5.98,
+      unit: "acres",
+      location: "Gilgit-Baltistan",
+      description: "Rich in Gold, Copper & Silver",
+      badge: "Placer Gold",
+      image: "/about3.jpg",
+    },
+  ],
+  []
+);
 
   const [active, setActive] = useState(0);
 

@@ -38,9 +38,9 @@ export default function Header({Selection}:{Selection: number}){
             <div className="absolute top-14 p-2 border-l border-white/80 left-0 h-auto w-auto min-w-35 bg-blue-900/95 hidden group-hover:block pointer-events-auto z-1">
             <>
             <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">About Nubia</li>
-            <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Mission</li>
+            {/* <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Mission</li> */}
             <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Locations</li>
-            {/* <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Our Team</li> */}
+            <li className="text-white/65 p-1 hover:text-white/75 hover:underline decoration-white/70">Assets</li>
             </>
             </div>
             </a>
