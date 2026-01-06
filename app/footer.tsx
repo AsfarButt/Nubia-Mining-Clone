@@ -11,7 +11,20 @@ export default function Footer(){
 
     return(<div className="w-full h-auto z-5 min-h-36 bg-linear-to-tl from-blue-900/85 to-blue-950/90 backdrop-brightness-20 flex flex-col justify-center items-center overflow-hidden">
         <div className="relative pt-8 w-full h-auto flex justify-center">
-            <a className="relative w-25 h-25 bg-[url('/brandlogo.png')] bg-center bg-cover" href="/Home"></a>
+            <a
+            href="/"
+            className="relative onstartheaderlogoanimation w-28 sm:w-28 h-28 mt-2 bg-white hover:bg-yellow-500/85 mask-[url('/brandlogo.png')] mask-center mask-cover"
+            // style={{
+            //     WebkitMaskImage: "url('/brandtext.png')",
+            //     WebkitMaskRepeat: "no-repeat",
+            //     WebkitMaskSize: "cover",
+            //     WebkitMaskPosition: "center",
+            //     maskImage: "url('/brandtext.png')",
+            //     maskRepeat: "no-repeat",
+            //     maskSize: "cover",
+            //     maskPosition: "center",
+            // }}
+            ></a>
         </div>
         <div className="relative w-full flex flex-row flex-wrap items-start justify-evenly pt-3">
             <a className="cursor-pointer list-none min-w-15 m-2 text-white/85 font-medium hover:text-yellow-500/85 hover:font-normal" href="/Home">Home</a>
