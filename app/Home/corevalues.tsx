@@ -27,9 +27,12 @@ const services = [
   return (
     <section className="w-full bg-white py-10">
       <div className="mx-auto max-w-7xl px-4">
-      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold underline decoration-red-600 decoration-2">
-        Core Values
-      </h2>
+        <div className="relative w-full flex flex-col items-center justify-center">
+          <h1 className="text-neutral-800 text-3xl md:text-4xl font-libre font-bold">
+           Core Operations
+          </h1>
+          <div className="mt-2 w-66 h-[3px] bg-red-600 mb-6" />
+        </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {services.map((s, i) => (
             <div

@@ -26,9 +26,10 @@ export default function Page(){
         </div>
 
         <div className="relative w-full py-8 md:pt-8 h-auto px-2 bg-white text-black md:px-4 flex flex-col justify-center items-center">
-      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold underline decoration-red-600 decoration-2">
-        Our Vision & Mission
-      </h2>
+          <h1 className="text-neutral-800 text-3xl md:text-4xl font-libre font-bold">
+            Our Vision & Mission
+          </h1>
+          <div className="mt-2 w-66 h-[3px] bg-red-600" />
         {/* VISION ROW */}
         <div className="relative mt-12 w-[90%] max-w-7xl h-auto flex flex-row items-center justify-between">
             
@@ -47,10 +48,7 @@ export default function Page(){
                 </h2>
 
                 <p className="text-[18px] md:text-[20px] font-sans text-black/90 md:line-clamp-8 lg:line-clamp-5">
-                To be a globally trusted leader in the responsible exploration,
-                development, and trade of precious and strategic metals — driving
-                transparency, sustainability, and innovation across the global
-                resources sector.
+                To be a globally trusted leader in the responsible exploration, development, and trade of precious and strategic metals—driving transparency, sustainability, and continuous innovation across the global resources and natural materials sector.
                 </p>
             </div>
             </div>
@@ -66,15 +64,7 @@ export default function Page(){
                 </h2>
 
                 <p className="text-[18px] md:text-[20px] font-sans text-black/90 md:line-clamp-8 lg:line-clamp-5">
-                <span className="font-semibold">
-                    Delivering Excellence Through Innovation and Integrity
-                </span>
-                <br />
-                To responsibly explore, develop, and trade precious and strategic
-                metals by upholding the highest standards of integrity, transparency,
-                and environmental stewardship. We aim to build lasting partnerships,
-                strengthen global supply chains, and create sustainable value for
-                industries, communities, and stakeholders worldwide.
+                To responsibly explore, develop, and trade precious and strategic metals while upholding the highest standards of integrity, transparency, and environmental stewardship, building strong partnerships and resilient supply chains for communities and industries worldwide.
                 </p>
             </div>
             </div>

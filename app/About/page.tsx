@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center bg-white">
       {/* Hero Section */}
-      <div className="relative w-full md:h-160 h-140 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
+      <div className="relative w-full md:h-160 h-140 flex items-center justify-center bg-[url('/aboutmain.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/35" />
 
         <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
