@@ -27,7 +27,7 @@ const services = [
   return (
     <section className="w-full bg-white py-10">
       <div className="mx-auto max-w-7xl px-4">
-      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold">
+      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold underline decoration-red-600 decoration-2">
         Core Values
       </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">

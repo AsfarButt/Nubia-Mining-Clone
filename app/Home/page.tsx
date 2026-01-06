@@ -26,7 +26,7 @@ export default function Page(){
         </div>
 
         <div className="relative w-full py-8 md:pt-8 h-auto px-2 bg-white text-black md:px-4 flex flex-col justify-center items-center">
-      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold">
+      <h2 className="mb-10 text-center text-[32px] md:text-[36px] text-neutral-800 font-bold underline decoration-red-600 decoration-2">
         Our Vision & Mission
       </h2>
         {/* VISION ROW */}
@@ -95,7 +95,7 @@ export default function Page(){
 
         {/* Third Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-center">
-            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionrightimage.jpg')] before:bg-center before:opacity-80 before:brightness-120 before:bg-cover flex items-center justify-center">
+            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionrightimage.jpg')] before:bg-center before:opacity-80 before:brightness-80 before:bg-cover flex items-center justify-center">
                 <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/70 p-4 hover:bg-white/90 transition-all duration-300 flex flex-col items-center justify-center">
                     <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Services</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">
@@ -106,7 +106,7 @@ export default function Page(){
                     </a>
                 </div>
             </div>
-            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionleftimage.jpg')] before:bg-center before:opacity-80 before:brightness-120 before:bg-cover flex items-center justify-center">
+            <div className="parentelement relative w-full h-140 before:absolute before:inset-0 before:bg-[url('/sectionleftimage.jpg')] before:bg-center before:opacity-80 before:brightness-80 before:bg-cover flex items-center justify-center">
                 <div className="childelement relative w-[75%] max-w-120 h-auto py-6 group bg-white/70 p-4 hover:bg-white/90 transition-all duration-300 flex flex-col items-center justify-center">
                     <h1 className="text-[28px] mt-2 font-semibold text-blue-900/85 text-center">Nubia Mining Products</h1>
                     <h2 className="text-center font-bold font-sans text-black/95 text-[18px]">

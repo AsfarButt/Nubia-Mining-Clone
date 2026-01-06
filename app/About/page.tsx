@@ -1,81 +1,155 @@
+"use client";
+
 import Assets from "./assets";
 
-
-export default function Page(){
-
-    return(<div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center bg-white">
+export default function Page() {
+  return (
+    <div className="bodyelement relative w-full h-auto flex flex-col items-center justify-center bg-white">
       {/* Hero Section */}
-        <div className="relative w-full md:h-160 h-140 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
-            <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
-                <div className="onstartanimation w-[90%] py-10 p-4 h-auto pb-10 max-w-140 bg-white">
-                    <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About</h1>
-                    <h1 className="onstartanimation delay-200 text-[22px] text-blue-900">We manage the full value chain--from exploration to processing and trade of gold, PGMs, and critical minerals--guided by OECD, LBMA and JORC standards to ensure ethical and traceable operations.</h1>
-                    <div className="onstartanimation delay-250 relative w-full h-0.5 bg-red-600/70 my-2 " />
-                    <h1 className="onstartanimation delay-300 text-[14px] text-black/80">Grounded in compliance, sustainability and technology, Nubia leverages digital ESO governance to deliver secure, transparent, and future-ready metal sipply chain</h1>
-                </div>
+      <div className="relative w-full md:h-160 h-140 flex items-center justify-center bg-[url('/aboutimg2.avif')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-black/35" />
+
+        <div className="relative h-auto text-2xl font-semibold font-sans w-[90%] px-2 flex justify-center md:justify-start">
+          <div className="onstartanimation w-[92%] md:w-[85%] py-10 p-5 h-auto max-w-140 bg-white/95 backdrop-blur-sm shadow-lg border border-black/10">
+            <h1 className="text-neutral-500 font-mono p-2 text-[14px]">
+              Nubia Mining / About
+            </h1>
+
+            <h1 className="onstartanimation delay-200 text-[22px] md:text-[24px] text-neutral-800 font-bold leading-snug">
+              We manage the full value chain—from exploration to processing and trade of gold,
+              PGMs, and critical minerals—guided by OECD, LBMA, and JORC standards to ensure
+              ethical, transparent, and fully traceable operations worldwide.abo
+            </h1>
+
+            {/* sharp divider */}
+            <div className="onstartanimation2 relative my-3 w-[90%] h-0.5 bg-red-600/80" />
+
+            <p className="onstartanimation delay-300 text-[14px] md:text-[15px] text-neutral-600 leading-relaxed">
+              Grounded in compliance, sustainability, and advanced technology, Nubia leverages
+              digital ESG governance frameworks to deliver secure, transparent, and future-ready
+              metal supply chains for global industries and strategic partners.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Approach */}
+      <div className="relative w-full py-12 px-4 md:px-8 lg:px-16 bg-white">
+        <div className="mx-auto max-w-7xl">
+          <h1 className="text-neutral-800 text-3xl md:text-4xl font-libre font-bold">
+            Our Approach
+          </h1>
+          <div className="mt-2 w-16 h-[3px] bg-red-600" />
+
+          <p className="mt-6 w-full md:w-[85%] lg:w-[75%] text-neutral-700 text-[18px] leading-relaxed">
+            We manage the full value chain—from exploration to processing and trade of gold,
+            PGMs, and critical minerals—guided by OECD, LBMA, and JORC standards to ensure
+            ethical, transparent, and fully traceable operations worldwide.
+          </p>
+
+          <p className="mt-4 w-full md:w-[85%] lg:w-[75%] text-neutral-600 text-[17px] leading-relaxed">
+            Grounded in compliance, sustainability, and advanced technology, Nubia leverages
+            digital ESG governance frameworks to deliver secure, transparent, and future-ready
+            metal supply chains for global industries and strategic partners.
+          </p>
+
+          <div className="mt-10 h-px w-full bg-black/10" />
+        </div>
+      </div>
+
+      {/* Locations */}
+      <div className="relative w-full py-10 px-4 md:px-8 lg:px-16 bg-white">
+        <div className="mx-auto max-w-7xl">
+          <h1 className="text-neutral-800 text-3xl md:text-4xl font-libre font-bold">
+            Locations
+          </h1>
+          <div className="mt-2 w-16 h-[3px] bg-red-600" />
+
+          <h2 className="mt-6 font-semibold text-neutral-700 text-[18px] md:text-[19px]">
+            Nubia Mining operates from two offices within Pakistan, strategically located to
+            serve our regional and national operations efficiently.
+          </h2>
+
+          <p className="mt-3 w-full md:w-[85%] lg:w-[75%] text-neutral-600 text-[17px] leading-relaxed">
+            We operate from{" "}
+            <a
+              className="font-semibold text-neutral-800 hover:underline underline-offset-4"
+              href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Islamabad
+            </a>{" "}
+            and{" "}
+            <a
+              className="font-semibold text-neutral-800 hover:underline underline-offset-4"
+              href="https://maps.app.goo.gl/B3nSpH3giDUgbFiEA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Rawalpindi
+            </a>
+            , supporting regional and national operations.
+          </p>
+        </div>
+      </div>
+
+      {/* Logistics */}
+      <div className="relative w-full mt-16 bg-[url('/aboutimg3.jpg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-black/45" />
+
+        <div className="relative max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-12">
+          <h1 className="text-white text-3xl md:text-4xl font-bold">
+            Logistics & Export Operations
+          </h1>
+          <div className="mt-3 w-20 h-[3px] bg-red-600" />
+
+          <div className="mt-10 flex flex-col md:flex-row gap-8">
+            <div className="bg-white/95 shadow-lg border border-black/10 p-6">
+              <h1 className="text-neutral-500 font-mono text-[13px]">
+                Nubia Mining / Operations
+              </h1>
+              <h2 className="mt-2 text-[22px] font-bold text-neutral-800">
+                Transport
+              </h2>
+              <div className="mt-2 w-12 h-[2px] bg-red-600" />
+
+              <p className="mt-4 text-[15px] text-neutral-600 leading-relaxed">
+                20–30 MT sealed and containerized shipments, GPS-tracked and monitored by SOS,
+                enabling secure mine-to-Karachi delivery across approved corridors.
+              </p>
             </div>
-        </div>
 
-        {/* <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
-            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-libre font-medium">Mission</h1>
-            <h2 className="font-semibold mt-4 text-gray-800/85">Delivering Excellence Through Innovation and Intergrity</h2>
-            <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">To responsibly explore, develop, and trade precious and strategic metals by upholding the highest standards  of integrity, transparency, and envirnomental stewardship. We aim to build lasting partnerships, strengthen global supply chains, and create sustainable value for industries, communnities, and stakeholders worldwide.</p>
-        </div> */}
+            <div className="bg-white/95 shadow-lg border border-black/10 p-6">
+              <h1 className="text-neutral-500 font-mono text-[13px]">
+                Nubia Mining / Shipping
+              </h1>
+              <h2 className="mt-2 text-[22px] font-bold text-neutral-800">
+                Shipping Options
+              </h2>
+              <div className="mt-2 w-12 h-[2px] bg-red-600" />
 
-        <div className="relative w-full py-2 px-4 md:px-8 lg:px-16 h-auto bg-white">
-            <h1 className="text-black mt-10 p-2 underline decoration-red-600 text-3xl font-libre font-medium">Locations</h1>
-            <h2 className="font-semibold mt-4 text-gray-800/85">Nubia Mining operates from two offices within Pakistan, strategically located to serve our regional and national operations efficiently.</h2>
-            <p className="relative w-full md:w-[70%] lg:w-[60%] text-gray-800/90 text-[18px] mt-2">We have two locations in Pakistan: 
-            <a className="cursor-pointer text-[18px] text-blue-900/85 hover:underline" href="https://maps.app.goo.gl/UUse279z1MFJ5aVe9" target="_blank"> House No. 17, Street No. 22, Sector F-6/2, Islamabad, Capital Territory, Pakistan</a> and another at 
-            <a className="cursor-pointer text-[18px] text-blue-900/85 hover:underline" href="https://maps.app.goo.gl/B3nSpH3giDUgbFiEA" target="_blank"> House No. 218C Firdosi Road near GHQ Rawalpindi</a>
-             </p>
-        </div>
-
-        <div className="relative w-full mt-20 h-auto bg-[url('/aboutimg3.jpg')] bg-cover bg-center flex flex-col items-center justify-center">
-            <h1 className="text-white text-center font-sans font-bold text-4xl pt-4 bg-linear-to-b from-black/40 to-transparent">Logistics & Export Operations</h1>
-            <div className="relative w-[90%] h-auto flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-evenly gap-8">
-                <div className="relative w-full max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-4 py-2">
-                    <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Operations</h1>
-                    <h1 className="text-[22px] text-blue-900">Transport</h1>
-                    <h1 className="text-[14px] text-black/80">20-30 MT sealed, containerized, GPS-tracked trucksm monitored by SOS -- direct mine-to-Karachi delivery.</h1>
-                    <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
-                    <h1 className="text-[14px] text-black/80">Export Volume: Monthly Shipment as per client requirments.</h1>
-                </div>
-                <div className="relative w-full max-w-110 my-10 h-auto pb-20 bg-white shadow-lg hover:shadow-black/40 transition-all duration-300 px-5 py-2">
-                    <h1 className="text-gray-600/80 font-mono p-2 text-[14px]">Nubia Mining / About / Shipping</h1>
-                    <h1 className="text-[22px] pt-4 text-blue-900">Shipping Options</h1>
-                    <div className="relative w-full h-0.5 bg-red-600/70 my-2 " />
-                    <li className="text-[14px] text-black/80">Containerized Export Prefered (Prefered): 80-100 * 20 containers per month.</li>
-                    <li className="text-[14px] text-black/80">Breakbulk: 5,000-15,000 DWT vessels, 2,000-2,500 MT/day loading rate.</li>
-                    <li className="text-[14px] text-black/80">Compliance: All operations follow SGS-certified procedures ensuring full export intergrity.</li>
-                </div>
+              <ul className="mt-4 space-y-2 text-[15px] text-neutral-600 list-disc pl-5">
+                <li>
+                  <strong className="text-neutral-800">Containerized Export:</strong> 80–100
+                  containers per month.
+                </li>
+                <li>
+                  <strong className="text-neutral-800">Breakbulk:</strong> 5,000–15,000 DWT
+                  vessels, 2,000–2,500 MT/day loading.
+                </li>
+                <li>
+                  <strong className="text-neutral-800">Compliance:</strong> SGS-certified export
+                  procedures.
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div className="relative w-full px-4 md:px-8 lg:px-16 bg-white">
-            {/* Our Team */}
-            <div className="relative py-6 w-full px-4 h-auto flex flex-row flex-wrap items-center justify-center">
-                <h1 className="relative w-full py-6 text-black/95 text-center font-sans text-3xl font-semibold">Our Team</h1>
-                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Furqan Zahoor</h1>
-                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Director</h2>
-                </li>
-                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Saboor Karamat</h1>
-                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Legal Expert</h2>
-                </li>
-                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Waqar Khan</h1>
-                    <h2 className="text-[16px] text-gray-600/95 md:text-center">MD Mining & Exploration</h2>
-                </li>
-                <li className="list-none relative w-full md:w-80 md:p-8 h-auto p-2 m-2 rounded-md border border-black/20 hover:[box-shadow:0px_0px_10px_rgba(0,0,0,0.3)]">
-                    <h1 className="underline text-gray-800/90 font-semibold md:text-center text-2xl">Bibi Sabira</h1>
-                    <h2 className="text-[16px] text-gray-600/95 md:text-center">Project Coordinator</h2>
-                </li>
-            </div>
-        </div>
-
-        {/* Assets */}
-        <Assets />
-    </div>)
+      {/* Assets */}
+      <Assets />
+    </div>
+  );
 }

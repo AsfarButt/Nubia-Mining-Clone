@@ -1,64 +1,144 @@
+"use client";
 import ContactUs from "./contactus";
 
-
-
-
-
-
-
 export default function Page() {
-
-
   return (
-    <div className="relative w-full h-auto py-20 flex flex-col justify-center items-center bg-gray-100">
+    <div className="relative w-full bg-[#0F1B2D]">
+      {/* HERO */}
+      <section className="relative w-full border-b border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-16">
+          <h1 className="text-white text-4xl md:text-5xl font-libre font-bold tracking-tight">
+            Contact Us
+          </h1>
+          <div className="mt-3 w-20 h-[2px] bg-blue-400/70" />
+          <p className="mt-6 max-w-2xl text-slate-200 text-[16px] md:text-[17px] leading-relaxed">
+            Whether you are enquiring about our products, services, partnerships,
+            or general information, our team is available to assist you.
+          </p>
+        </div>
+      </section>
 
-    <div className="bg-gray-100 py-24">
-      <div className="max-w-4xl mx-auto text-center px-6">
-        <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
-        <p className="text-gray-700 mb-8">
-          Have questions, feedback, or need assistance? Our team is ready to help you. 
-          We strive to respond promptly to every inquiry and ensure you have the support you need.
-        </p>
-        <p className="text-gray-700 mb-12">
-          Whether it’s about our services, partnerships, or general information, don’t hesitate to reach out. 
-          You can contact us through phone or email, and we’ll get back to you as soon as possible.
-        </p>
+      {/* CONTACT CARDS */}
+      <section className="relative w-full">
+        <div className="mx-auto max-w-7xl px-6 py-14 grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* PHONE */}
+          <div className="border border-white/10 bg-[#101C2E] p-8">
+            <h3 className="text-white text-xl font-semibold">Phone</h3>
+            <p className="mt-1 text-slate-400 text-sm">
+              Monday to Friday, 9:00 AM – 6:00 PM
+            </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Phone Section */}
-          <div className="bg-white p-8 rounded-lg flex flex-col items-center hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-black/30">
-          <img src="/telephone.png" alt="Telephone PNG" className="w-10 h-10 my-2" />
-            <h3 className="text-2xl font-semibold mb-4">Phone</h3>
-            <a className="text-blue-700/85 hover:underline mb-2" href="https://wa.me/0516162000" target="_blank">051 616 2000</a>
-            <a className="text-blue-700/85 hover:underline" href="https://wa.me/0516164000" target="_blank">051 616 4000</a>
-            <p className="text-gray-500 mt-4 text-sm">
-              Our phone lines are open Monday to Friday, 9 AM to 6 PM.
+            <div className="mt-6 space-y-2 text-slate-200">
+              <p>051 616 2000</p>
+              <p>051 616 4000</p>
+            </div>
+          </div>
+
+          {/* EMAIL */}
+          <div className="border border-white/10 bg-[#101C2E] p-8">
+            <h3 className="text-white text-xl font-semibold">Email</h3>
+            <p className="mt-1 text-slate-400 text-sm">
+              Responses within one business day
+            </p>
+
+            <div className="mt-6 space-y-2 text-slate-200">
+              <p>support@nubiamining.com</p>
+              <p>info@nubiamining.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MAP + FORM */}
+      <section className="relative w-full border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-14 grid grid-cols-1 lg:grid-cols-12 gap-8">
+          {/* MAP */}
+          <div className="lg:col-span-5 border border-white/10 bg-[#101C2E]">
+            <div className="px-6 py-4 border-b border-white/10">
+              <h3 className="text-white font-semibold">Our Location</h3>
+              <p className="text-slate-400 text-sm mt-1">
+                Islamabad, Pakistan
+              </p>
+            </div>
+
+            <div className="aspect-[4/3] w-full">
+              <iframe
+                title="Nubia Mining Location"
+                className="w-full h-full"
+                loading="lazy"
+                src="https://www.google.com/maps?q=Islamabad,+Pakistan&output=embed"
+              />
+            </div>
+
+            <div className="px-6 py-4 border-t border-white/10 text-slate-300 text-sm">
+              House No. 17, Street No. 22, Sector F-6/2, Islamabad, Pakistan
+            </div>
+          </div>
+
+          {/* FORM */}
+          <div className="lg:col-span-7 border border-white/10 bg-[#101C2E] p-8">
+            <h3 className="text-white text-2xl font-semibold">
+              Send Us a Message
+            </h3>
+            <p className="mt-2 text-slate-400 text-sm">
+              Complete the form below and our team will respond shortly.
+            </p>
+
+            <div className="mt-8">
+              {/* IMPORTANT:
+                Inside ContactUs component, inputs should use:
+                bg-[#0F1B2D] border-white/10 text-white placeholder:text-slate-500
+                button: bg-blue-500 text-white font-semibold
+              */}
+              <ContactUs />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="relative w-full border-t border-white/10">
+        <div className="mx-auto max-w-7xl px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+          <div>
+            <p className="text-white font-semibold">Nubia Mining</p>
+            <p className="mt-3 text-slate-400">
+              Responsible exploration, development, and trade of precious and
+              strategic metals.
             </p>
           </div>
 
-          {/* Email Section */}
-          <div className="bg-white p-8 rounded-lg flex flex-col items-center hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-black/30">
-            <img src="/mail.png" alt="Email PNG" className="w-10 h-10 my-2" /> 
-            <h3 className="text-2xl font-semibold mb-4">Email</h3>
-            <p className="text-gray-700 mb-2">
-              <a href="mailto:support@nubiamining.com" className="text-blue-700/85 hover:underline">support@nubiamining.com</a>
+          <div>
+            <p className="text-white font-semibold">Company</p>
+            <div className="mt-3 space-y-2 text-slate-400">
+              <p>About Us</p>
+              <p>Products</p>
+              <p>Services</p>
+              <p>Contact</p>
+            </div>
+          </div>
+
+          <div>
+            <p className="text-white font-semibold">Address</p>
+            <p className="mt-3 text-slate-400">
+              House No. 17, Street No. 22, Sector F-6/2, Islamabad, Pakistan
             </p>
-            <p className="text-gray-700 mb-2">
-              <a href="mailto:info@nubiamining.com" className="text-blue-700/85 hover:underline">info@nubiamining.com</a>
-            </p>
-            <p className="text-gray-500 mt-4 text-sm">
-              We aim to respond to emails within 24 hours on business days.
-            </p>
+          </div>
+
+          <div>
+            <p className="text-white font-semibold">Contact</p>
+            <div className="mt-3 space-y-2 text-slate-400">
+              <p>051 616 2000</p>
+              <p>051 616 4000</p>
+              <p>support@nubiamining.com</p>
+              <p>info@nubiamining.com</p>
+            </div>
           </div>
         </div>
 
-        <p className="text-gray-700 mt-12">
-          Your feedback and inquiries are important to us. Don’t hesitate to reach out — we are always ready to assist and provide you with the best possible support.
-        </p>
-      </div>
-    </div>
-
-      <ContactUs />
+        <div className="border-t border-white/10 py-4 text-center text-slate-500 text-xs">
+          © {new Date().getFullYear()} Nubia Mining. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }
