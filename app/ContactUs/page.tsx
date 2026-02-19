@@ -46,7 +46,7 @@ export default function Page() {
 
             <div className="mt-6 space-y-2 text-slate-300">
               <p className="tracking-wide">support@nubiamining.com</p>
-              <p className="tracking-wide">info@nubiamining.com</p>
+              <p className="tracking-wide">hr@nubiamining.com</p>
             </div>
           </div>
         </div>
