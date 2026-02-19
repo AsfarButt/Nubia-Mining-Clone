@@ -131,7 +131,7 @@ export default function Page() {
               <p>051 616 2000</p>
               <p>051 616 4000</p>
               <p>support@nubiamining.com</p>
-              <p>info@nubiamining.com</p>
+              <p>hr@nubiamining.com</p>
             </div>
           </div>
         </div>
